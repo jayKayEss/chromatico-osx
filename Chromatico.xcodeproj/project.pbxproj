@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0057121A18FB426600BF3D8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057121918FB426600BF3D8C /* Cocoa.framework */; };
+		0057122418FB426600BF3D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0057122218FB426600BF3D8C /* InfoPlist.strings */; };
+		0057122618FB426600BF3D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057122518FB426600BF3D8C /* main.m */; };
+		0057122A18FB426600BF3D8C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0057122818FB426600BF3D8C /* Credits.rtf */; };
+		0057122D18FB426600BF3D8C /* CCOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057122C18FB426600BF3D8C /* CCOAppDelegate.m */; };
+		0057123018FB426600BF3D8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0057122E18FB426600BF3D8C /* MainMenu.xib */; };
+		0057123218FB426600BF3D8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0057123118FB426600BF3D8C /* Images.xcassets */; };
+		0057123918FB426600BF3D8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057123818FB426600BF3D8C /* XCTest.framework */; };
+		0057123A18FB426600BF3D8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057121918FB426600BF3D8C /* Cocoa.framework */; };
+		0057124218FB426600BF3D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0057124018FB426600BF3D8C /* InfoPlist.strings */; };
+		0057124418FB426600BF3D8C /* ChromaticoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057124318FB426600BF3D8C /* ChromaticoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0057123B18FB426600BF3D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0057120E18FB426600BF3D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0057121518FB426600BF3D8C;
+			remoteInfo = Chromatico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0057121618FB426600BF3D8C /* Chromatico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chromatico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0057121918FB426600BF3D8C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0057121C18FB426600BF3D8C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0057121D18FB426600BF3D8C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0057121E18FB426600BF3D8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0057122118FB426600BF3D8C /* Chromatico-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chromatico-Info.plist"; sourceTree = "<group>"; };
+		0057122318FB426600BF3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0057122518FB426600BF3D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0057122718FB426600BF3D8C /* Chromatico-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chromatico-Prefix.pch"; sourceTree = "<group>"; };
+		0057122918FB426600BF3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0057122B18FB426600BF3D8C /* CCOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCOAppDelegate.h; sourceTree = "<group>"; };
+		0057122C18FB426600BF3D8C /* CCOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCOAppDelegate.m; sourceTree = "<group>"; };
+		0057122F18FB426600BF3D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0057123118FB426600BF3D8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0057123718FB426600BF3D8C /* ChromaticoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromaticoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0057123818FB426600BF3D8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0057123F18FB426600BF3D8C /* ChromaticoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChromaticoTests-Info.plist"; sourceTree = "<group>"; };
+		0057124118FB426600BF3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0057124318FB426600BF3D8C /* ChromaticoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromaticoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0057121318FB426600BF3D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0057121A18FB426600BF3D8C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0057123418FB426600BF3D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0057123A18FB426600BF3D8C /* Cocoa.framework in Frameworks */,
+				0057123918FB426600BF3D8C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0057120D18FB426600BF3D8C = {
+			isa = PBXGroup;
+			children = (
+				0057121F18FB426600BF3D8C /* Chromatico */,
+				0057123D18FB426600BF3D8C /* ChromaticoTests */,
+				0057121818FB426600BF3D8C /* Frameworks */,
+				0057121718FB426600BF3D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0057121718FB426600BF3D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0057121618FB426600BF3D8C /* Chromatico.app */,
+				0057123718FB426600BF3D8C /* ChromaticoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0057121818FB426600BF3D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0057121918FB426600BF3D8C /* Cocoa.framework */,
+				0057123818FB426600BF3D8C /* XCTest.framework */,
+				0057121B18FB426600BF3D8C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0057121B18FB426600BF3D8C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0057121C18FB426600BF3D8C /* AppKit.framework */,
+				0057121D18FB426600BF3D8C /* CoreData.framework */,
+				0057121E18FB426600BF3D8C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0057121F18FB426600BF3D8C /* Chromatico */ = {
+			isa = PBXGroup;
+			children = (
+				0057122B18FB426600BF3D8C /* CCOAppDelegate.h */,
+				0057122C18FB426600BF3D8C /* CCOAppDelegate.m */,
+				0057122E18FB426600BF3D8C /* MainMenu.xib */,
+				0057123118FB426600BF3D8C /* Images.xcassets */,
+				0057122018FB426600BF3D8C /* Supporting Files */,
+			);
+			path = Chromatico;
+			sourceTree = "<group>";
+		};
+		0057122018FB426600BF3D8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0057122118FB426600BF3D8C /* Chromatico-Info.plist */,
+				0057122218FB426600BF3D8C /* InfoPlist.strings */,
+				0057122518FB426600BF3D8C /* main.m */,
+				0057122718FB426600BF3D8C /* Chromatico-Prefix.pch */,
+				0057122818FB426600BF3D8C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0057123D18FB426600BF3D8C /* ChromaticoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0057124318FB426600BF3D8C /* ChromaticoTests.m */,
+				0057123E18FB426600BF3D8C /* Supporting Files */,
+			);
+			path = ChromaticoTests;
+			sourceTree = "<group>";
+		};
+		0057123E18FB426600BF3D8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0057123F18FB426600BF3D8C /* ChromaticoTests-Info.plist */,
+				0057124018FB426600BF3D8C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0057121518FB426600BF3D8C /* Chromatico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0057124718FB426600BF3D8C /* Build configuration list for PBXNativeTarget "Chromatico" */;
+			buildPhases = (
+				0057121218FB426600BF3D8C /* Sources */,
+				0057121318FB426600BF3D8C /* Frameworks */,
+				0057121418FB426600BF3D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chromatico;
+			productName = Chromatico;
+			productReference = 0057121618FB426600BF3D8C /* Chromatico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0057123618FB426600BF3D8C /* ChromaticoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0057124A18FB426600BF3D8C /* Build configuration list for PBXNativeTarget "ChromaticoTests" */;
+			buildPhases = (
+				0057123318FB426600BF3D8C /* Sources */,
+				0057123418FB426600BF3D8C /* Frameworks */,
+				0057123518FB426600BF3D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0057123C18FB426600BF3D8C /* PBXTargetDependency */,
+			);
+			name = ChromaticoTests;
+			productName = ChromaticoTests;
+			productReference = 0057123718FB426600BF3D8C /* ChromaticoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0057120E18FB426600BF3D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CCO;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Justin Sheckler";
+				TargetAttributes = {
+					0057123618FB426600BF3D8C = {
+						TestTargetID = 0057121518FB426600BF3D8C;
+					};
+				};
+			};
+			buildConfigurationList = 0057121118FB426600BF3D8C /* Build configuration list for PBXProject "Chromatico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0057120D18FB426600BF3D8C;
+			productRefGroup = 0057121718FB426600BF3D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0057121518FB426600BF3D8C /* Chromatico */,
+				0057123618FB426600BF3D8C /* ChromaticoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0057121418FB426600BF3D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0057122418FB426600BF3D8C /* InfoPlist.strings in Resources */,
+				0057123218FB426600BF3D8C /* Images.xcassets in Resources */,
+				0057122A18FB426600BF3D8C /* Credits.rtf in Resources */,
+				0057123018FB426600BF3D8C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0057123518FB426600BF3D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0057124218FB426600BF3D8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0057121218FB426600BF3D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0057122D18FB426600BF3D8C /* CCOAppDelegate.m in Sources */,
+				0057122618FB426600BF3D8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0057123318FB426600BF3D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0057124418FB426600BF3D8C /* ChromaticoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0057123C18FB426600BF3D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0057121518FB426600BF3D8C /* Chromatico */;
+			targetProxy = 0057123B18FB426600BF3D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0057122218FB426600BF3D8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0057122318FB426600BF3D8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0057122818FB426600BF3D8C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0057122918FB426600BF3D8C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0057122E18FB426600BF3D8C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0057122F18FB426600BF3D8C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0057124018FB426600BF3D8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0057124118FB426600BF3D8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0057124518FB426600BF3D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0057124618FB426600BF3D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0057124818FB426600BF3D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chromatico/Chromatico-Prefix.pch";
+				INFOPLIST_FILE = "Chromatico/Chromatico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0057124918FB426600BF3D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chromatico/Chromatico-Prefix.pch";
+				INFOPLIST_FILE = "Chromatico/Chromatico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0057124B18FB426600BF3D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chromatico.app/Contents/MacOS/Chromatico";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chromatico/Chromatico-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChromaticoTests/ChromaticoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0057124C18FB426600BF3D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chromatico.app/Contents/MacOS/Chromatico";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chromatico/Chromatico-Prefix.pch";
+				INFOPLIST_FILE = "ChromaticoTests/ChromaticoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0057121118FB426600BF3D8C /* Build configuration list for PBXProject "Chromatico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0057124518FB426600BF3D8C /* Debug */,
+				0057124618FB426600BF3D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0057124718FB426600BF3D8C /* Build configuration list for PBXNativeTarget "Chromatico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0057124818FB426600BF3D8C /* Debug */,
+				0057124918FB426600BF3D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0057124A18FB426600BF3D8C /* Build configuration list for PBXNativeTarget "ChromaticoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0057124B18FB426600BF3D8C /* Debug */,
+				0057124C18FB426600BF3D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0057120E18FB426600BF3D8C /* Project object */;
+}
