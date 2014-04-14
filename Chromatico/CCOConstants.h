@@ -12,6 +12,8 @@
 
 + (NSArray *)strings;
 + (NSString *)getRandomString;
++ (NSArray *)fonts;
++ (NSString *)getRandomFont;
 + (int)minColors;
 + (int)maxColors;
 

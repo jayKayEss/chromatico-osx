@@ -34,14 +34,16 @@
     CGFloat fontSize = (CGFloat)arc4random_uniform(400) + 48.0;
     CGFloat zPosition = (CGFloat)arc4random_uniform(100);
     CGColorRef color = [[CCOPalette getInstance] grabColor];
-    
+
+    NSString *fontName = [CCOConstants getRandomFont];
+    NSLog(@"FONT %@", fontName);
     self.textLayer.string = [CCOConstants getRandomString];
-    self.textLayer.font = CGFontCreateWithFontName(CFSTR("HelveticaNeue-Bold"));
+    self.textLayer.font = (CFStringRef)CFBridgingRetain(fontName);
     self.textLayer.fontSize = fontSize;
     self.textLayer.foregroundColor = color;
     self.textLayer.zPosition = zPosition;
     [self.textLayer adjustBoundsToFit];
-
+    
     CGFloat outerWidth = self.outerBounds.size.width;
 
     self.xPos = outerWidth + (self.layer.bounds.size.width / 2);

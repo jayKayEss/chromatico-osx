@@ -110,4 +110,28 @@
     return strings[n];
 }
 
++ (NSArray *)fonts
+{
+    static NSArray *fonts;
+    
+    if (!fonts) {
+        fonts = @[@"HelveticaNeue",
+                  @"HelveticaNeue-Bold",
+                  @"Times-Roman",
+                  @"Times-Bold",
+                  @"Courier",
+                  @"Courier-Bold"];
+    }
+    
+    return fonts;
+}
+
++ (NSString *)getRandomFont
+{
+    NSArray *fonts = [CCOConstants fonts];
+    int n = arc4random_uniform((int)[fonts count]);
+    return fonts[n];
+}
+
+
 @end
