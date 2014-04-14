@@ -7,12 +7,19 @@
 //
 
 #import "CCOAppDelegate.h"
+#import "CCOChromaticoView.h"
 
 @implementation CCOAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSLog(@"App did finish launching!");
+    [self.chromaticoView startAnimation];
+}
+
+- (void)applicationWillTerminate:(NSNotification *)notification
+{
+    [self.chromaticoView stopAnimation];
 }
 
 @end

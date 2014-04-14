@@ -12,12 +12,56 @@
 		0057122618FB426600BF3D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057122518FB426600BF3D8C /* main.m */; };
 		0057122A18FB426600BF3D8C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0057122818FB426600BF3D8C /* Credits.rtf */; };
 		0057122D18FB426600BF3D8C /* CCOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057122C18FB426600BF3D8C /* CCOAppDelegate.m */; };
-		0057123018FB426600BF3D8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0057122E18FB426600BF3D8C /* MainMenu.xib */; };
 		0057123218FB426600BF3D8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0057123118FB426600BF3D8C /* Images.xcassets */; };
 		0057123918FB426600BF3D8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057123818FB426600BF3D8C /* XCTest.framework */; };
 		0057123A18FB426600BF3D8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057121918FB426600BF3D8C /* Cocoa.framework */; };
 		0057124218FB426600BF3D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0057124018FB426600BF3D8C /* InfoPlist.strings */; };
 		0057124418FB426600BF3D8C /* ChromaticoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057124318FB426600BF3D8C /* ChromaticoTests.m */; };
+		0057125418FB42B900BF3D8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057121918FB426600BF3D8C /* Cocoa.framework */; };
+		0057125618FB42B900BF3D8C /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057125518FB42B900BF3D8C /* ScreenSaver.framework */; };
+		0057125C18FB42B900BF3D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0057125A18FB42B900BF3D8C /* InfoPlist.strings */; };
+		0057126018FB42B900BF3D8C /* ChromaticoSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057125F18FB42B900BF3D8C /* ChromaticoSaverView.m */; };
+		005712AC18FB434800BF3D8C /* NSColor+Random.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712AA18FB434800BF3D8C /* NSColor+Random.h */; };
+		005712AD18FB434800BF3D8C /* NSColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712AB18FB434800BF3D8C /* NSColor+Random.m */; };
+		005712AE18FB434800BF3D8C /* NSColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712AB18FB434800BF3D8C /* NSColor+Random.m */; };
+		005712AF18FB434800BF3D8C /* NSColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712AB18FB434800BF3D8C /* NSColor+Random.m */; };
+		005712B218FB435200BF3D8C /* CATextLayer+AutoSizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712B018FB435200BF3D8C /* CATextLayer+AutoSizing.h */; };
+		005712B318FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712B118FB435200BF3D8C /* CATextLayer+AutoSizing.m */; };
+		005712B418FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712B118FB435200BF3D8C /* CATextLayer+AutoSizing.m */; };
+		005712B518FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712B118FB435200BF3D8C /* CATextLayer+AutoSizing.m */; };
+		005712B818FB437D00BF3D8C /* CCOChromaticoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712B618FB437D00BF3D8C /* CCOChromaticoView.h */; };
+		005712B918FB437D00BF3D8C /* CCOChromaticoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712B718FB437D00BF3D8C /* CCOChromaticoView.m */; };
+		005712BA18FB437D00BF3D8C /* CCOChromaticoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712B718FB437D00BF3D8C /* CCOChromaticoView.m */; };
+		005712BB18FB437D00BF3D8C /* CCOChromaticoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712B718FB437D00BF3D8C /* CCOChromaticoView.m */; };
+		005712C418FB444D00BF3D8C /* CCOConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712C218FB444D00BF3D8C /* CCOConstants.h */; };
+		005712C518FB444D00BF3D8C /* CCOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C318FB444D00BF3D8C /* CCOConstants.m */; };
+		005712C618FB444D00BF3D8C /* CCOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C318FB444D00BF3D8C /* CCOConstants.m */; };
+		005712C718FB444D00BF3D8C /* CCOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C318FB444D00BF3D8C /* CCOConstants.m */; };
+		005712CA18FB446F00BF3D8C /* CCOTextLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712C818FB446F00BF3D8C /* CCOTextLayer.h */; };
+		005712CB18FB446F00BF3D8C /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C918FB446F00BF3D8C /* CCOTextLayer.m */; };
+		005712CC18FB446F00BF3D8C /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C918FB446F00BF3D8C /* CCOTextLayer.m */; };
+		005712CD18FB446F00BF3D8C /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C918FB446F00BF3D8C /* CCOTextLayer.m */; };
+		005712CF18FB44A000BF3D8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005712CE18FB44A000BF3D8C /* MainMenu.xib */; };
+		005712D018FB44A000BF3D8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005712CE18FB44A000BF3D8C /* MainMenu.xib */; };
+		005712D118FB44A000BF3D8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005712CE18FB44A000BF3D8C /* MainMenu.xib */; };
+		005712D318FB455800BF3D8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005712D218FB455800BF3D8C /* QuartzCore.framework */; };
+		005712D418FB457F00BF3D8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005712D218FB455800BF3D8C /* QuartzCore.framework */; };
+		005712D718FB49E500BF3D8C /* CCOPalette.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712D518FB49E500BF3D8C /* CCOPalette.h */; };
+		005712D818FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
+		005712D918FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
+		005712DA18FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
+		005712DD18FB5E5A00BF3D8C /* CCOLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712DB18FB5E5A00BF3D8C /* CCOLayer.h */; };
+		005712DE18FB5E5A00BF3D8C /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712DC18FB5E5A00BF3D8C /* CCOLayer.m */; };
+		005712DF18FB5E5A00BF3D8C /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712DC18FB5E5A00BF3D8C /* CCOLayer.m */; };
+		005712E018FB5E5A00BF3D8C /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712DC18FB5E5A00BF3D8C /* CCOLayer.m */; };
+		005712E318FB5F4C00BF3D8C /* CCOBlockLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712E118FB5F4C00BF3D8C /* CCOBlockLayer.h */; };
+		005712E418FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E218FB5F4C00BF3D8C /* CCOBlockLayer.m */; };
+		005712E518FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E218FB5F4C00BF3D8C /* CCOBlockLayer.m */; };
+		005712E618FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E218FB5F4C00BF3D8C /* CCOBlockLayer.m */; };
+		005712E918FB695000BF3D8C /* CCOStripeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712E718FB695000BF3D8C /* CCOStripeLayer.h */; };
+		005712EA18FB695000BF3D8C /* CCOStripeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E818FB695000BF3D8C /* CCOStripeLayer.m */; };
+		005712EB18FB695000BF3D8C /* CCOStripeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E818FB695000BF3D8C /* CCOStripeLayer.m */; };
+		005712EC18FB695000BF3D8C /* CCOStripeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E818FB695000BF3D8C /* CCOStripeLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +87,39 @@
 		0057122918FB426600BF3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		0057122B18FB426600BF3D8C /* CCOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCOAppDelegate.h; sourceTree = "<group>"; };
 		0057122C18FB426600BF3D8C /* CCOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCOAppDelegate.m; sourceTree = "<group>"; };
-		0057122F18FB426600BF3D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0057123118FB426600BF3D8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0057123718FB426600BF3D8C /* ChromaticoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromaticoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0057123818FB426600BF3D8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0057123F18FB426600BF3D8C /* ChromaticoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChromaticoTests-Info.plist"; sourceTree = "<group>"; };
 		0057124118FB426600BF3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0057124318FB426600BF3D8C /* ChromaticoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromaticoTests.m; sourceTree = "<group>"; };
+		0057125318FB42B900BF3D8C /* ChromaticoSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromaticoSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		0057125518FB42B900BF3D8C /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		0057125918FB42B900BF3D8C /* ChromaticoSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChromaticoSaver-Info.plist"; sourceTree = "<group>"; };
+		0057125B18FB42B900BF3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0057125D18FB42B900BF3D8C /* ChromaticoSaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChromaticoSaver-Prefix.pch"; sourceTree = "<group>"; };
+		0057125E18FB42B900BF3D8C /* ChromaticoSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromaticoSaverView.h; sourceTree = "<group>"; };
+		0057125F18FB42B900BF3D8C /* ChromaticoSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromaticoSaverView.m; sourceTree = "<group>"; };
+		005712AA18FB434800BF3D8C /* NSColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Random.h"; sourceTree = "<group>"; };
+		005712AB18FB434800BF3D8C /* NSColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Random.m"; sourceTree = "<group>"; };
+		005712B018FB435200BF3D8C /* CATextLayer+AutoSizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATextLayer+AutoSizing.h"; sourceTree = "<group>"; };
+		005712B118FB435200BF3D8C /* CATextLayer+AutoSizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+AutoSizing.m"; sourceTree = "<group>"; };
+		005712B618FB437D00BF3D8C /* CCOChromaticoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOChromaticoView.h; sourceTree = "<group>"; };
+		005712B718FB437D00BF3D8C /* CCOChromaticoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOChromaticoView.m; sourceTree = "<group>"; };
+		005712C218FB444D00BF3D8C /* CCOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCOConstants.h; path = ../../Chromatico/Chromatico/CCOConstants.h; sourceTree = "<group>"; };
+		005712C318FB444D00BF3D8C /* CCOConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCOConstants.m; path = ../../Chromatico/Chromatico/CCOConstants.m; sourceTree = "<group>"; };
+		005712C818FB446F00BF3D8C /* CCOTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCOTextLayer.h; path = ../../Chromatico/Chromatico/CCOTextLayer.h; sourceTree = "<group>"; };
+		005712C918FB446F00BF3D8C /* CCOTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCOTextLayer.m; path = ../../Chromatico/Chromatico/CCOTextLayer.m; sourceTree = "<group>"; };
+		005712CE18FB44A000BF3D8C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		005712D218FB455800BF3D8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		005712D518FB49E500BF3D8C /* CCOPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOPalette.h; sourceTree = "<group>"; };
+		005712D618FB49E500BF3D8C /* CCOPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOPalette.m; sourceTree = "<group>"; };
+		005712DB18FB5E5A00BF3D8C /* CCOLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCOLayer.h; path = ../../Chromatico/Chromatico/CCOLayer.h; sourceTree = "<group>"; };
+		005712DC18FB5E5A00BF3D8C /* CCOLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCOLayer.m; path = ../../Chromatico/Chromatico/CCOLayer.m; sourceTree = "<group>"; };
+		005712E118FB5F4C00BF3D8C /* CCOBlockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCOBlockLayer.h; path = ../../Chromatico/Chromatico/CCOBlockLayer.h; sourceTree = "<group>"; };
+		005712E218FB5F4C00BF3D8C /* CCOBlockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCOBlockLayer.m; path = ../../Chromatico/Chromatico/CCOBlockLayer.m; sourceTree = "<group>"; };
+		005712E718FB695000BF3D8C /* CCOStripeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCOStripeLayer.h; path = ../../Chromatico/Chromatico/CCOStripeLayer.h; sourceTree = "<group>"; };
+		005712E818FB695000BF3D8C /* CCOStripeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCOStripeLayer.m; path = ../../Chromatico/Chromatico/CCOStripeLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005712D418FB457F00BF3D8C /* QuartzCore.framework in Frameworks */,
 				0057121A18FB426600BF3D8C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +141,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0057124E18FB42B900BF3D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005712D318FB455800BF3D8C /* QuartzCore.framework in Frameworks */,
+				0057125618FB42B900BF3D8C /* ScreenSaver.framework in Frameworks */,
+				0057125418FB42B900BF3D8C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +159,7 @@
 			children = (
 				0057121F18FB426600BF3D8C /* Chromatico */,
 				0057123D18FB426600BF3D8C /* ChromaticoTests */,
+				0057125718FB42B900BF3D8C /* ChromaticoSaver */,
 				0057121818FB426600BF3D8C /* Frameworks */,
 				0057121718FB426600BF3D8C /* Products */,
 			);
@@ -88,6 +170,7 @@
 			children = (
 				0057121618FB426600BF3D8C /* Chromatico.app */,
 				0057123718FB426600BF3D8C /* ChromaticoTests.xctest */,
+				0057125318FB42B900BF3D8C /* ChromaticoSaver.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,8 +178,10 @@
 		0057121818FB426600BF3D8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				005712D218FB455800BF3D8C /* QuartzCore.framework */,
 				0057121918FB426600BF3D8C /* Cocoa.framework */,
 				0057123818FB426600BF3D8C /* XCTest.framework */,
+				0057125518FB42B900BF3D8C /* ScreenSaver.framework */,
 				0057121B18FB426600BF3D8C /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -115,9 +200,27 @@
 		0057121F18FB426600BF3D8C /* Chromatico */ = {
 			isa = PBXGroup;
 			children = (
+				005712C218FB444D00BF3D8C /* CCOConstants.h */,
+				005712C318FB444D00BF3D8C /* CCOConstants.m */,
+				005712B618FB437D00BF3D8C /* CCOChromaticoView.h */,
+				005712B718FB437D00BF3D8C /* CCOChromaticoView.m */,
 				0057122B18FB426600BF3D8C /* CCOAppDelegate.h */,
 				0057122C18FB426600BF3D8C /* CCOAppDelegate.m */,
-				0057122E18FB426600BF3D8C /* MainMenu.xib */,
+				005712D518FB49E500BF3D8C /* CCOPalette.h */,
+				005712D618FB49E500BF3D8C /* CCOPalette.m */,
+				005712DB18FB5E5A00BF3D8C /* CCOLayer.h */,
+				005712DC18FB5E5A00BF3D8C /* CCOLayer.m */,
+				005712E118FB5F4C00BF3D8C /* CCOBlockLayer.h */,
+				005712E218FB5F4C00BF3D8C /* CCOBlockLayer.m */,
+				005712E718FB695000BF3D8C /* CCOStripeLayer.h */,
+				005712E818FB695000BF3D8C /* CCOStripeLayer.m */,
+				005712C818FB446F00BF3D8C /* CCOTextLayer.h */,
+				005712C918FB446F00BF3D8C /* CCOTextLayer.m */,
+				005712B018FB435200BF3D8C /* CATextLayer+AutoSizing.h */,
+				005712B118FB435200BF3D8C /* CATextLayer+AutoSizing.m */,
+				005712AA18FB434800BF3D8C /* NSColor+Random.h */,
+				005712AB18FB434800BF3D8C /* NSColor+Random.m */,
+				005712CE18FB44A000BF3D8C /* MainMenu.xib */,
 				0057123118FB426600BF3D8C /* Images.xcassets */,
 				0057122018FB426600BF3D8C /* Supporting Files */,
 			);
@@ -154,7 +257,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0057125718FB42B900BF3D8C /* ChromaticoSaver */ = {
+			isa = PBXGroup;
+			children = (
+				0057125E18FB42B900BF3D8C /* ChromaticoSaverView.h */,
+				0057125F18FB42B900BF3D8C /* ChromaticoSaverView.m */,
+				0057125818FB42B900BF3D8C /* Supporting Files */,
+			);
+			path = ChromaticoSaver;
+			sourceTree = "<group>";
+		};
+		0057125818FB42B900BF3D8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0057125918FB42B900BF3D8C /* ChromaticoSaver-Info.plist */,
+				0057125A18FB42B900BF3D8C /* InfoPlist.strings */,
+				0057125D18FB42B900BF3D8C /* ChromaticoSaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0057124F18FB42B900BF3D8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005712B818FB437D00BF3D8C /* CCOChromaticoView.h in Headers */,
+				005712B218FB435200BF3D8C /* CATextLayer+AutoSizing.h in Headers */,
+				005712E318FB5F4C00BF3D8C /* CCOBlockLayer.h in Headers */,
+				005712CA18FB446F00BF3D8C /* CCOTextLayer.h in Headers */,
+				005712D718FB49E500BF3D8C /* CCOPalette.h in Headers */,
+				005712DD18FB5E5A00BF3D8C /* CCOLayer.h in Headers */,
+				005712C418FB444D00BF3D8C /* CCOConstants.h in Headers */,
+				005712E918FB695000BF3D8C /* CCOStripeLayer.h in Headers */,
+				005712AC18FB434800BF3D8C /* NSColor+Random.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0057121518FB426600BF3D8C /* Chromatico */ = {
@@ -192,6 +334,25 @@
 			productReference = 0057123718FB426600BF3D8C /* ChromaticoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0057125218FB42B900BF3D8C /* ChromaticoSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0057126118FB42B900BF3D8C /* Build configuration list for PBXNativeTarget "ChromaticoSaver" */;
+			buildPhases = (
+				0057124D18FB42B900BF3D8C /* Sources */,
+				0057124E18FB42B900BF3D8C /* Frameworks */,
+				0057124F18FB42B900BF3D8C /* Headers */,
+				0057125018FB42B900BF3D8C /* Resources */,
+				0057125118FB42B900BF3D8C /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaticoSaver;
+			productName = ChromaticoSaver;
+			productReference = 0057125318FB42B900BF3D8C /* ChromaticoSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +383,7 @@
 			targets = (
 				0057121518FB426600BF3D8C /* Chromatico */,
 				0057123618FB426600BF3D8C /* ChromaticoTests */,
+				0057125218FB42B900BF3D8C /* ChromaticoSaver */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +396,7 @@
 				0057122418FB426600BF3D8C /* InfoPlist.strings in Resources */,
 				0057123218FB426600BF3D8C /* Images.xcassets in Resources */,
 				0057122A18FB426600BF3D8C /* Credits.rtf in Resources */,
-				0057123018FB426600BF3D8C /* MainMenu.xib in Resources */,
+				005712CF18FB44A000BF3D8C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,18 +405,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				0057124218FB426600BF3D8C /* InfoPlist.strings in Resources */,
+				005712D018FB44A000BF3D8C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0057125018FB42B900BF3D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0057125C18FB42B900BF3D8C /* InfoPlist.strings in Resources */,
+				005712D118FB44A000BF3D8C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		0057125118FB42B900BF3D8C /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0057121218FB426600BF3D8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005712B918FB437D00BF3D8C /* CCOChromaticoView.m in Sources */,
+				005712EA18FB695000BF3D8C /* CCOStripeLayer.m in Sources */,
+				005712CB18FB446F00BF3D8C /* CCOTextLayer.m in Sources */,
+				005712C518FB444D00BF3D8C /* CCOConstants.m in Sources */,
 				0057122D18FB426600BF3D8C /* CCOAppDelegate.m in Sources */,
+				005712DE18FB5E5A00BF3D8C /* CCOLayer.m in Sources */,
+				005712B318FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
 				0057122618FB426600BF3D8C /* main.m in Sources */,
+				005712E418FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */,
+				005712D818FB49E500BF3D8C /* CCOPalette.m in Sources */,
+				005712AD18FB434800BF3D8C /* NSColor+Random.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +453,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005712D918FB49E500BF3D8C /* CCOPalette.m in Sources */,
+				005712E518FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */,
+				005712BA18FB437D00BF3D8C /* CCOChromaticoView.m in Sources */,
+				005712C618FB444D00BF3D8C /* CCOConstants.m in Sources */,
+				005712CC18FB446F00BF3D8C /* CCOTextLayer.m in Sources */,
 				0057124418FB426600BF3D8C /* ChromaticoTests.m in Sources */,
+				005712EB18FB695000BF3D8C /* CCOStripeLayer.m in Sources */,
+				005712AE18FB434800BF3D8C /* NSColor+Random.m in Sources */,
+				005712B418FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
+				005712DF18FB5E5A00BF3D8C /* CCOLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0057124D18FB42B900BF3D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005712DA18FB49E500BF3D8C /* CCOPalette.m in Sources */,
+				005712E618FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */,
+				005712BB18FB437D00BF3D8C /* CCOChromaticoView.m in Sources */,
+				005712C718FB444D00BF3D8C /* CCOConstants.m in Sources */,
+				005712CD18FB446F00BF3D8C /* CCOTextLayer.m in Sources */,
+				0057126018FB42B900BF3D8C /* ChromaticoSaverView.m in Sources */,
+				005712EC18FB695000BF3D8C /* CCOStripeLayer.m in Sources */,
+				005712AF18FB434800BF3D8C /* NSColor+Random.m in Sources */,
+				005712B518FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
+				005712E018FB5E5A00BF3D8C /* CCOLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,18 +510,18 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		0057122E18FB426600BF3D8C /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0057122F18FB426600BF3D8C /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 		0057124018FB426600BF3D8C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0057124118FB426600BF3D8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0057125A18FB42B900BF3D8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0057125B18FB42B900BF3D8C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -446,6 +663,36 @@
 			};
 			name = Release;
 		};
+		0057126218FB42B900BF3D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChromaticoSaver/ChromaticoSaver-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChromaticoSaver/ChromaticoSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		0057126318FB42B900BF3D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChromaticoSaver/ChromaticoSaver-Prefix.pch";
+				INFOPLIST_FILE = "ChromaticoSaver/ChromaticoSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,6 +712,7 @@
 				0057124918FB426600BF3D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0057124A18FB426600BF3D8C /* Build configuration list for PBXNativeTarget "ChromaticoTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +721,16 @@
 				0057124C18FB426600BF3D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0057126118FB42B900BF3D8C /* Build configuration list for PBXNativeTarget "ChromaticoSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0057126218FB42B900BF3D8C /* Debug */,
+				0057126318FB42B900BF3D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
