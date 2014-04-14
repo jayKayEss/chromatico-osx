@@ -106,7 +106,7 @@
 + (NSString *)getRandomString
 {
     NSArray *strings = [CCOConstants strings];
-    int n = arc4random() % [strings count];
+    int n = arc4random_uniform((int)[strings count]);
     return strings[n];
 }
 

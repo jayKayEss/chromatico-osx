@@ -33,7 +33,7 @@
     
     CGColorRef color = [[CCOPalette getInstance] grabColor];
 
-    CGFloat width = (float)(arc4random() % (int)self.outerBounds.size.width / 2 + 1);
+    CGFloat width = (float)arc4random_uniform((int)self.outerBounds.size.width / 2) + 1.0;
     CGRect rect = CGRectMake(0, 0, width, self.outerBounds.size.height);
     CGPathRef path = CGPathCreateWithRect(rect, nil);
     

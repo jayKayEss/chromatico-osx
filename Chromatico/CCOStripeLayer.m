@@ -32,12 +32,13 @@
     [CATransaction setAnimationDuration:0.0];
     
     CGFloat outerWidth = self.outerBounds.size.width;
+    CGFloat outerHeight = self.outerBounds.size.height;
     
     CGColorRef color = [[CCOPalette getInstance] grabColor];
-    CGFloat zPosition = (CGFloat)(arc4random() % 100);
+    CGFloat zPosition = (CGFloat)arc4random_uniform(100);
     
-    CGFloat width = (float)(arc4random() % (int)outerWidth * 2 + outerWidth);
-    CGFloat height = (float)(arc4random() % (int)self.outerBounds.size.height / 4 + 1);
+    CGFloat width = (float)arc4random_uniform((int)outerWidth * 2) + outerWidth;
+    CGFloat height = (float)arc4random_uniform((int)outerHeight / 4) + 1;
     CGRect rect = CGRectMake(0, 0, width, height);
     CGPathRef path = CGPathCreateWithRect(rect, nil);
     
@@ -45,9 +46,9 @@
     self.shapeLayer.fillColor = color;
     self.shapeLayer.zPosition = zPosition;
     
-    self.xPos = self.outerBounds.size.width + width;
+    self.xPos = outerWidth + width;
     self.xFinal = 0 - width;
-    self.yPos = (float)(arc4random() % (int)(self.outerBounds.size.height - 1) + 1);
+    self.yPos = (float)arc4random_uniform((int)outerHeight - 1) + 1;
     
     self.layer.position = CGPointMake(self.xPos, self.yPos);
     [CATransaction commit];

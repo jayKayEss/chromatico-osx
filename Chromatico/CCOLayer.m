@@ -44,7 +44,7 @@
 
 - (void)scheduleAnimation
 {
-//    float beginTime = (float)(arc4random() % 10);
+//    float beginTime = (float)arc4random_uniform(10);
 //    NSLog(@"Scheduling animation in %f", beginTime);
 //    
 //    [NSTimer scheduledTimerWithTimeInterval:beginTime
@@ -63,9 +63,7 @@
 - (void)startAnimation
 {
     [self setUpGeometry];
-    CGFloat duration = (CGFloat)(arc4random() % 110) + 10;
-//    CGFloat duration = (CGFloat)(arc4random() % 3) + 2;
-//    NSLog(@"Animation duration %f", duration);
+    CGFloat duration = (CGFloat)(arc4random_uniform(110) + 10);
     
     CABasicAnimation* moveLeft = [CABasicAnimation animationWithKeyPath:@"position"];
     moveLeft.fromValue = [NSValue valueWithPoint:CGPointMake(self.xPos, self.yPos)];
@@ -76,9 +74,10 @@
     
     self.layer.position = CGPointMake(self.xPos, self.yPos);
     [CATransaction begin];
+    NSLog(@"Animation begin %f", duration);
     [CATransaction setCompletionBlock:^{
         CCOLayer *self = wSelf;
-//        NSLog(@"Animation did finish.");
+        NSLog(@"Animation did finish.");
         [self scheduleAnimation];
     }];
     [self.layer addAnimation:moveLeft forKey:@"position"];

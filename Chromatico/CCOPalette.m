@@ -52,7 +52,7 @@
 {
     int minColors = [CCOConstants minColors];
     int maxColors = [CCOConstants maxColors];
-    int numColors = arc4random() % (maxColors - minColors + 1) + minColors;
+    int numColors = arc4random_uniform(maxColors - minColors + 1) + minColors;
     
     NSLog(@"### Palette has %i colors!", numColors);
     
