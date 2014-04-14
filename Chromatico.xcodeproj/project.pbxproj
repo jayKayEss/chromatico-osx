@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00527C1318FC5526008FF750 /* CCOBlockLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 00527C0918FC5526008FF750 /* CCOBlockLayer.h */; };
+		00527C1418FC5526008FF750 /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0A18FC5526008FF750 /* CCOBlockLayer.m */; };
+		00527C1518FC5526008FF750 /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0A18FC5526008FF750 /* CCOBlockLayer.m */; };
+		00527C1618FC5526008FF750 /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0A18FC5526008FF750 /* CCOBlockLayer.m */; };
+		00527C1718FC5526008FF750 /* CCOConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 00527C0B18FC5526008FF750 /* CCOConstants.h */; };
+		00527C1818FC5526008FF750 /* CCOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0C18FC5526008FF750 /* CCOConstants.m */; };
+		00527C1918FC5526008FF750 /* CCOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0C18FC5526008FF750 /* CCOConstants.m */; };
+		00527C1A18FC5526008FF750 /* CCOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0C18FC5526008FF750 /* CCOConstants.m */; };
+		00527C1B18FC5526008FF750 /* CCOLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 00527C0D18FC5526008FF750 /* CCOLayer.h */; };
+		00527C1C18FC5526008FF750 /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0E18FC5526008FF750 /* CCOLayer.m */; };
+		00527C1D18FC5526008FF750 /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0E18FC5526008FF750 /* CCOLayer.m */; };
+		00527C1E18FC5526008FF750 /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0E18FC5526008FF750 /* CCOLayer.m */; };
+		00527C1F18FC5526008FF750 /* CCOStripeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 00527C0F18FC5526008FF750 /* CCOStripeLayer.h */; };
+		00527C2018FC5526008FF750 /* CCOStripeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C1018FC5526008FF750 /* CCOStripeLayer.m */; };
+		00527C2118FC5526008FF750 /* CCOStripeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C1018FC5526008FF750 /* CCOStripeLayer.m */; };
+		00527C2218FC5526008FF750 /* CCOStripeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C1018FC5526008FF750 /* CCOStripeLayer.m */; };
+		00527C2318FC5526008FF750 /* CCOTextLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 00527C1118FC5526008FF750 /* CCOTextLayer.h */; };
+		00527C2418FC5526008FF750 /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C1218FC5526008FF750 /* CCOTextLayer.m */; };
+		00527C2518FC5526008FF750 /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C1218FC5526008FF750 /* CCOTextLayer.m */; };
+		00527C2618FC5526008FF750 /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C1218FC5526008FF750 /* CCOTextLayer.m */; };
 		0057121A18FB426600BF3D8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057121918FB426600BF3D8C /* Cocoa.framework */; };
 		0057122418FB426600BF3D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0057122218FB426600BF3D8C /* InfoPlist.strings */; };
 		0057122618FB426600BF3D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057122518FB426600BF3D8C /* main.m */; };
@@ -33,14 +53,6 @@
 		005712B918FB437D00BF3D8C /* CCOChromaticoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712B718FB437D00BF3D8C /* CCOChromaticoView.m */; };
 		005712BA18FB437D00BF3D8C /* CCOChromaticoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712B718FB437D00BF3D8C /* CCOChromaticoView.m */; };
 		005712BB18FB437D00BF3D8C /* CCOChromaticoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712B718FB437D00BF3D8C /* CCOChromaticoView.m */; };
-		005712C418FB444D00BF3D8C /* CCOConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712C218FB444D00BF3D8C /* CCOConstants.h */; };
-		005712C518FB444D00BF3D8C /* CCOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C318FB444D00BF3D8C /* CCOConstants.m */; };
-		005712C618FB444D00BF3D8C /* CCOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C318FB444D00BF3D8C /* CCOConstants.m */; };
-		005712C718FB444D00BF3D8C /* CCOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C318FB444D00BF3D8C /* CCOConstants.m */; };
-		005712CA18FB446F00BF3D8C /* CCOTextLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712C818FB446F00BF3D8C /* CCOTextLayer.h */; };
-		005712CB18FB446F00BF3D8C /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C918FB446F00BF3D8C /* CCOTextLayer.m */; };
-		005712CC18FB446F00BF3D8C /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C918FB446F00BF3D8C /* CCOTextLayer.m */; };
-		005712CD18FB446F00BF3D8C /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712C918FB446F00BF3D8C /* CCOTextLayer.m */; };
 		005712CF18FB44A000BF3D8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005712CE18FB44A000BF3D8C /* MainMenu.xib */; };
 		005712D018FB44A000BF3D8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005712CE18FB44A000BF3D8C /* MainMenu.xib */; };
 		005712D118FB44A000BF3D8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005712CE18FB44A000BF3D8C /* MainMenu.xib */; };
@@ -50,18 +62,6 @@
 		005712D818FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
 		005712D918FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
 		005712DA18FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
-		005712DD18FB5E5A00BF3D8C /* CCOLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712DB18FB5E5A00BF3D8C /* CCOLayer.h */; };
-		005712DE18FB5E5A00BF3D8C /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712DC18FB5E5A00BF3D8C /* CCOLayer.m */; };
-		005712DF18FB5E5A00BF3D8C /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712DC18FB5E5A00BF3D8C /* CCOLayer.m */; };
-		005712E018FB5E5A00BF3D8C /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712DC18FB5E5A00BF3D8C /* CCOLayer.m */; };
-		005712E318FB5F4C00BF3D8C /* CCOBlockLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712E118FB5F4C00BF3D8C /* CCOBlockLayer.h */; };
-		005712E418FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E218FB5F4C00BF3D8C /* CCOBlockLayer.m */; };
-		005712E518FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E218FB5F4C00BF3D8C /* CCOBlockLayer.m */; };
-		005712E618FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E218FB5F4C00BF3D8C /* CCOBlockLayer.m */; };
-		005712E918FB695000BF3D8C /* CCOStripeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712E718FB695000BF3D8C /* CCOStripeLayer.h */; };
-		005712EA18FB695000BF3D8C /* CCOStripeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E818FB695000BF3D8C /* CCOStripeLayer.m */; };
-		005712EB18FB695000BF3D8C /* CCOStripeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E818FB695000BF3D8C /* CCOStripeLayer.m */; };
-		005712EC18FB695000BF3D8C /* CCOStripeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712E818FB695000BF3D8C /* CCOStripeLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +75,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00527C0918FC5526008FF750 /* CCOBlockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOBlockLayer.h; sourceTree = "<group>"; };
+		00527C0A18FC5526008FF750 /* CCOBlockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOBlockLayer.m; sourceTree = "<group>"; };
+		00527C0B18FC5526008FF750 /* CCOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOConstants.h; sourceTree = "<group>"; };
+		00527C0C18FC5526008FF750 /* CCOConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOConstants.m; sourceTree = "<group>"; };
+		00527C0D18FC5526008FF750 /* CCOLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOLayer.h; sourceTree = "<group>"; };
+		00527C0E18FC5526008FF750 /* CCOLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOLayer.m; sourceTree = "<group>"; };
+		00527C0F18FC5526008FF750 /* CCOStripeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOStripeLayer.h; sourceTree = "<group>"; };
+		00527C1018FC5526008FF750 /* CCOStripeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOStripeLayer.m; sourceTree = "<group>"; };
+		00527C1118FC5526008FF750 /* CCOTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOTextLayer.h; sourceTree = "<group>"; };
+		00527C1218FC5526008FF750 /* CCOTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOTextLayer.m; sourceTree = "<group>"; };
 		0057121618FB426600BF3D8C /* Chromatico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chromatico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0057121918FB426600BF3D8C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0057121C18FB426600BF3D8C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -106,20 +116,10 @@
 		005712B118FB435200BF3D8C /* CATextLayer+AutoSizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+AutoSizing.m"; sourceTree = "<group>"; };
 		005712B618FB437D00BF3D8C /* CCOChromaticoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOChromaticoView.h; sourceTree = "<group>"; };
 		005712B718FB437D00BF3D8C /* CCOChromaticoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOChromaticoView.m; sourceTree = "<group>"; };
-		005712C218FB444D00BF3D8C /* CCOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCOConstants.h; path = ../../Chromatico/Chromatico/CCOConstants.h; sourceTree = "<group>"; };
-		005712C318FB444D00BF3D8C /* CCOConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCOConstants.m; path = ../../Chromatico/Chromatico/CCOConstants.m; sourceTree = "<group>"; };
-		005712C818FB446F00BF3D8C /* CCOTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCOTextLayer.h; path = ../../Chromatico/Chromatico/CCOTextLayer.h; sourceTree = "<group>"; };
-		005712C918FB446F00BF3D8C /* CCOTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCOTextLayer.m; path = ../../Chromatico/Chromatico/CCOTextLayer.m; sourceTree = "<group>"; };
 		005712CE18FB44A000BF3D8C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		005712D218FB455800BF3D8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		005712D518FB49E500BF3D8C /* CCOPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOPalette.h; sourceTree = "<group>"; };
 		005712D618FB49E500BF3D8C /* CCOPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOPalette.m; sourceTree = "<group>"; };
-		005712DB18FB5E5A00BF3D8C /* CCOLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCOLayer.h; path = ../../Chromatico/Chromatico/CCOLayer.h; sourceTree = "<group>"; };
-		005712DC18FB5E5A00BF3D8C /* CCOLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCOLayer.m; path = ../../Chromatico/Chromatico/CCOLayer.m; sourceTree = "<group>"; };
-		005712E118FB5F4C00BF3D8C /* CCOBlockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCOBlockLayer.h; path = ../../Chromatico/Chromatico/CCOBlockLayer.h; sourceTree = "<group>"; };
-		005712E218FB5F4C00BF3D8C /* CCOBlockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCOBlockLayer.m; path = ../../Chromatico/Chromatico/CCOBlockLayer.m; sourceTree = "<group>"; };
-		005712E718FB695000BF3D8C /* CCOStripeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCOStripeLayer.h; path = ../../Chromatico/Chromatico/CCOStripeLayer.h; sourceTree = "<group>"; };
-		005712E818FB695000BF3D8C /* CCOStripeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCOStripeLayer.m; path = ../../Chromatico/Chromatico/CCOStripeLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,22 +200,22 @@
 		0057121F18FB426600BF3D8C /* Chromatico */ = {
 			isa = PBXGroup;
 			children = (
-				005712C218FB444D00BF3D8C /* CCOConstants.h */,
-				005712C318FB444D00BF3D8C /* CCOConstants.m */,
 				005712B618FB437D00BF3D8C /* CCOChromaticoView.h */,
 				005712B718FB437D00BF3D8C /* CCOChromaticoView.m */,
 				0057122B18FB426600BF3D8C /* CCOAppDelegate.h */,
 				0057122C18FB426600BF3D8C /* CCOAppDelegate.m */,
 				005712D518FB49E500BF3D8C /* CCOPalette.h */,
 				005712D618FB49E500BF3D8C /* CCOPalette.m */,
-				005712DB18FB5E5A00BF3D8C /* CCOLayer.h */,
-				005712DC18FB5E5A00BF3D8C /* CCOLayer.m */,
-				005712E118FB5F4C00BF3D8C /* CCOBlockLayer.h */,
-				005712E218FB5F4C00BF3D8C /* CCOBlockLayer.m */,
-				005712E718FB695000BF3D8C /* CCOStripeLayer.h */,
-				005712E818FB695000BF3D8C /* CCOStripeLayer.m */,
-				005712C818FB446F00BF3D8C /* CCOTextLayer.h */,
-				005712C918FB446F00BF3D8C /* CCOTextLayer.m */,
+				00527C0918FC5526008FF750 /* CCOBlockLayer.h */,
+				00527C0A18FC5526008FF750 /* CCOBlockLayer.m */,
+				00527C0B18FC5526008FF750 /* CCOConstants.h */,
+				00527C0C18FC5526008FF750 /* CCOConstants.m */,
+				00527C0D18FC5526008FF750 /* CCOLayer.h */,
+				00527C0E18FC5526008FF750 /* CCOLayer.m */,
+				00527C0F18FC5526008FF750 /* CCOStripeLayer.h */,
+				00527C1018FC5526008FF750 /* CCOStripeLayer.m */,
+				00527C1118FC5526008FF750 /* CCOTextLayer.h */,
+				00527C1218FC5526008FF750 /* CCOTextLayer.m */,
 				005712B018FB435200BF3D8C /* CATextLayer+AutoSizing.h */,
 				005712B118FB435200BF3D8C /* CATextLayer+AutoSizing.m */,
 				005712AA18FB434800BF3D8C /* NSColor+Random.h */,
@@ -286,12 +286,12 @@
 			files = (
 				005712B818FB437D00BF3D8C /* CCOChromaticoView.h in Headers */,
 				005712B218FB435200BF3D8C /* CATextLayer+AutoSizing.h in Headers */,
-				005712E318FB5F4C00BF3D8C /* CCOBlockLayer.h in Headers */,
-				005712CA18FB446F00BF3D8C /* CCOTextLayer.h in Headers */,
+				00527C1318FC5526008FF750 /* CCOBlockLayer.h in Headers */,
 				005712D718FB49E500BF3D8C /* CCOPalette.h in Headers */,
-				005712DD18FB5E5A00BF3D8C /* CCOLayer.h in Headers */,
-				005712C418FB444D00BF3D8C /* CCOConstants.h in Headers */,
-				005712E918FB695000BF3D8C /* CCOStripeLayer.h in Headers */,
+				00527C1B18FC5526008FF750 /* CCOLayer.h in Headers */,
+				00527C1F18FC5526008FF750 /* CCOStripeLayer.h in Headers */,
+				00527C1718FC5526008FF750 /* CCOConstants.h in Headers */,
+				00527C2318FC5526008FF750 /* CCOTextLayer.h in Headers */,
 				005712AC18FB434800BF3D8C /* NSColor+Random.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,15 +435,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00527C2418FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				005712B918FB437D00BF3D8C /* CCOChromaticoView.m in Sources */,
-				005712EA18FB695000BF3D8C /* CCOStripeLayer.m in Sources */,
-				005712CB18FB446F00BF3D8C /* CCOTextLayer.m in Sources */,
-				005712C518FB444D00BF3D8C /* CCOConstants.m in Sources */,
+				00527C1818FC5526008FF750 /* CCOConstants.m in Sources */,
+				00527C2018FC5526008FF750 /* CCOStripeLayer.m in Sources */,
+				00527C1C18FC5526008FF750 /* CCOLayer.m in Sources */,
 				0057122D18FB426600BF3D8C /* CCOAppDelegate.m in Sources */,
-				005712DE18FB5E5A00BF3D8C /* CCOLayer.m in Sources */,
 				005712B318FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
+				00527C1418FC5526008FF750 /* CCOBlockLayer.m in Sources */,
 				0057122618FB426600BF3D8C /* main.m in Sources */,
-				005712E418FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */,
 				005712D818FB49E500BF3D8C /* CCOPalette.m in Sources */,
 				005712AD18FB434800BF3D8C /* NSColor+Random.m in Sources */,
 			);
@@ -454,15 +454,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				005712D918FB49E500BF3D8C /* CCOPalette.m in Sources */,
-				005712E518FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */,
+				00527C2518FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				005712BA18FB437D00BF3D8C /* CCOChromaticoView.m in Sources */,
-				005712C618FB444D00BF3D8C /* CCOConstants.m in Sources */,
-				005712CC18FB446F00BF3D8C /* CCOTextLayer.m in Sources */,
 				0057124418FB426600BF3D8C /* ChromaticoTests.m in Sources */,
-				005712EB18FB695000BF3D8C /* CCOStripeLayer.m in Sources */,
+				00527C1918FC5526008FF750 /* CCOConstants.m in Sources */,
+				00527C2118FC5526008FF750 /* CCOStripeLayer.m in Sources */,
+				00527C1518FC5526008FF750 /* CCOBlockLayer.m in Sources */,
 				005712AE18FB434800BF3D8C /* NSColor+Random.m in Sources */,
+				00527C1D18FC5526008FF750 /* CCOLayer.m in Sources */,
 				005712B418FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
-				005712DF18FB5E5A00BF3D8C /* CCOLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,15 +471,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				005712DA18FB49E500BF3D8C /* CCOPalette.m in Sources */,
-				005712E618FB5F4C00BF3D8C /* CCOBlockLayer.m in Sources */,
+				00527C2618FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				005712BB18FB437D00BF3D8C /* CCOChromaticoView.m in Sources */,
-				005712C718FB444D00BF3D8C /* CCOConstants.m in Sources */,
-				005712CD18FB446F00BF3D8C /* CCOTextLayer.m in Sources */,
 				0057126018FB42B900BF3D8C /* ChromaticoSaverView.m in Sources */,
-				005712EC18FB695000BF3D8C /* CCOStripeLayer.m in Sources */,
+				00527C1A18FC5526008FF750 /* CCOConstants.m in Sources */,
+				00527C2218FC5526008FF750 /* CCOStripeLayer.m in Sources */,
+				00527C1618FC5526008FF750 /* CCOBlockLayer.m in Sources */,
 				005712AF18FB434800BF3D8C /* NSColor+Random.m in Sources */,
+				00527C1E18FC5526008FF750 /* CCOLayer.m in Sources */,
 				005712B518FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
-				005712E018FB5E5A00BF3D8C /* CCOLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
