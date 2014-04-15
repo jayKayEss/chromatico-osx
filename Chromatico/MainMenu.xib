@@ -656,17 +656,10 @@
             <view key="contentView" id="372">
                 <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                <subviews>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZM1-1e-xYp" customClass="CCOChromaticoView">
-                        <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    </customView>
-                </subviews>
             </view>
         </window>
         <customObject id="494" customClass="CCOAppDelegate">
             <connections>
-                <outlet property="chromaticoView" destination="ZM1-1e-xYp" id="GUr-bG-sTN"/>
                 <outlet property="window" destination="371" id="Mny-jc-pmO"/>
             </connections>
         </customObject>

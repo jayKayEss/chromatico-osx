@@ -9,10 +9,11 @@
 #import <Cocoa/Cocoa.h>
 
 @class CCOChromaticoView;
+@class ChromaticoSaverView;
 
 @interface CCOAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (unsafe_unretained) IBOutlet NSWindow *window;
-@property (weak) IBOutlet CCOChromaticoView *chromaticoView;
+@property ChromaticoSaverView *chromaticoView;
 
 @end

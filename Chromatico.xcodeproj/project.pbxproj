@@ -62,6 +62,8 @@
 		005712D818FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
 		005712D918FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
 		005712DA18FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
+		00CD679518FCC75E0018ACC4 /* ChromaticoSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057125F18FB42B900BF3D8C /* ChromaticoSaverView.m */; };
+		00CD679618FCC7B30018ACC4 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057125518FB42B900BF3D8C /* ScreenSaver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CD679618FCC7B30018ACC4 /* ScreenSaver.framework in Frameworks */,
 				005712D418FB457F00BF3D8C /* QuartzCore.framework in Frameworks */,
 				0057121A18FB426600BF3D8C /* Cocoa.framework in Frameworks */,
 			);
@@ -435,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CD679518FCC75E0018ACC4 /* ChromaticoSaverView.m in Sources */,
 				00527C2418FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				005712B918FB437D00BF3D8C /* CCOChromaticoView.m in Sources */,
 				00527C1818FC5526008FF750 /* CCOConstants.m in Sources */,
