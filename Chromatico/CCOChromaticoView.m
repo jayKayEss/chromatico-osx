@@ -34,7 +34,7 @@
         
         self.layers = [[NSMutableArray alloc] init];
 
-        for (int i=0; i<5; i++) {
+        for (int i=0; i<3; i++) {
             CCOBlockLayer *layer = [[CCOBlockLayer alloc] init];
             [self addCCOLayer:layer];
         }
@@ -44,7 +44,7 @@
             [self addCCOLayer:layer];
         }
 
-        for (int i=0; i<5; i++) {
+        for (int i=0; i<3; i++) {
             CCOTextLayer *layer = [[CCOTextLayer alloc] init];
             [self addCCOLayer:layer];
         }
