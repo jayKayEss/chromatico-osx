@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0057121518FB426600BF3D8C"
-               BuildableName = "Chromatico.app"
+               BlueprintIdentifier = "0057125218FB42B900BF3D8C"
+               BuildableName = "Chromatico.saver"
                BlueprintName = "Chromatico"
                ReferencedContainer = "container:Chromatico.xcodeproj">
             </BuildableReference>
@@ -28,26 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0057123618FB426600BF3D8C"
-               BuildableName = "ChromaticoTests.xctest"
-               BlueprintName = "ChromaticoTests"
-               ReferencedContainer = "container:Chromatico.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0057121518FB426600BF3D8C"
-            BuildableName = "Chromatico.app"
-            BlueprintName = "Chromatico"
-            ReferencedContainer = "container:Chromatico.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -58,15 +39,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0057121518FB426600BF3D8C"
-            BuildableName = "Chromatico.app"
-            BlueprintName = "Chromatico"
-            ReferencedContainer = "container:Chromatico.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -76,15 +48,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0057121518FB426600BF3D8C"
-            BuildableName = "Chromatico.app"
-            BlueprintName = "Chromatico"
-            ReferencedContainer = "container:Chromatico.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
