@@ -31,7 +31,7 @@
     [CATransaction begin];
     [CATransaction setAnimationDuration:0.0];
     
-    CGColorRef color = [[CCOPalette getInstance] grabColor];
+    CGColorRef color = [self.palette grabColor];
 
     CGFloat width = (float)arc4random_uniform((int)self.outerBounds.size.width / 2) + 1.0;
     CGRect rect = CGRectMake(0, 0, width, self.outerBounds.size.height);
@@ -50,8 +50,7 @@
 
 - (void)changeColor
 {
-    CCOPalette *palette = [CCOPalette getInstance];
-    CGColorRef color = [palette grabColor];
+    CGColorRef color = [self.palette grabColor];
     
     [CATransaction begin];
     [CATransaction setAnimationDuration:2.0];

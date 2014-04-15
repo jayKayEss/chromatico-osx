@@ -7,20 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+
 @class CATextLayer;
+@class CCOPalette;
 
 @interface CCOLayer : NSObject
 
+@property CCOPalette *palette;
 @property CALayer *layer;
 @property CGRect outerBounds;
 @property CGFloat xPos;
 @property CGFloat yPos;
 @property CGFloat xFinal;
-@property BOOL shouldStopAnimation;
 
-- (void)animate;
-- (void)scheduleAnimation;
-- (void)setUpGeometry;
+- (id)initWithPalette:(CCOPalette *)palette;
 - (void)startAnimation;
 - (void)stopAnimation;
 - (void)changeColor;

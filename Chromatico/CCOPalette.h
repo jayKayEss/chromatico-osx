@@ -12,9 +12,6 @@
 
 @property NSMutableArray *colors;
 
-+ (id)getInstance;
-
-- (id)init;
 - (CGColorRef)grabColor;
 - (void)changeToNewColors;
 

@@ -9,14 +9,22 @@
 #import <QuartzCore/QuartzCore.h>
 
 #import "CCOLayer.h"
+#import "CCOPalette.h"
+
+@interface CCOLayer ()
+
+@property BOOL shouldContinueAnimation;
+
+@end
 
 @implementation CCOLayer
 
-- (id)init
+- (id)initWithPalette:(CCOPalette *)palette
 {
     self = [super init];
     if (self) {
-        self.shouldStopAnimation = NO;
+        self.palette = palette;
+        self.shouldContinueAnimation = NO;
         [self createLayer];
     }
     return self;
@@ -27,32 +35,15 @@
     // subclasses should implement!
 }
 
-- (void)animate
+- (void)startAnimation
 {
-    if (self.shouldStopAnimation == NO) {
-        NSLog(@"Starting up layer animation");
-        [self scheduleAnimation];
-    } else {
-        NSLog(@"Stopping layer animation");
-    }
+    self.shouldContinueAnimation = YES;
+    [self animate];
 }
 
 - (void)stopAnimation
 {
-    self.shouldStopAnimation = YES;
-}
-
-- (void)scheduleAnimation
-{
-//    float beginTime = (float)arc4random_uniform(10);
-//    NSLog(@"Scheduling animation in %f", beginTime);
-//    
-//    [NSTimer scheduledTimerWithTimeInterval:beginTime
-//                                     target:self
-//                                   selector:@selector(startAnimation)
-//                                   userInfo:nil
-//                                    repeats:NO];
-    [self startAnimation];
+    self.shouldContinueAnimation = NO;
 }
 
 - (void)setUpGeometry
@@ -60,7 +51,7 @@
     // subclasses should implement!
 }
 
-- (void)startAnimation
+- (void)animate
 {
     [self setUpGeometry];
     CGFloat duration = (CGFloat)(arc4random_uniform(110) + 10);
@@ -74,11 +65,11 @@
     
     self.layer.position = CGPointMake(self.xPos, self.yPos);
     [CATransaction begin];
-    NSLog(@"Animation begin %f", duration);
     [CATransaction setCompletionBlock:^{
         CCOLayer *self = wSelf;
-        NSLog(@"Animation did finish.");
-        [self scheduleAnimation];
+        if (self.shouldContinueAnimation) {
+            [self animate];
+        }
     }];
     [self.layer addAnimation:moveLeft forKey:@"position"];
     [CATransaction commit];

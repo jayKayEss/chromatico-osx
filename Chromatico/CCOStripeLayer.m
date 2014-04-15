@@ -34,7 +34,7 @@
     CGFloat outerWidth = self.outerBounds.size.width;
     CGFloat outerHeight = self.outerBounds.size.height;
     
-    CGColorRef color = [[CCOPalette getInstance] grabColor];
+    CGColorRef color = [self.palette grabColor];
     CGFloat zPosition = (CGFloat)arc4random_uniform(100);
     
     CGFloat width = (float)arc4random_uniform((int)outerWidth * 2) + outerWidth;
@@ -56,8 +56,7 @@
 
 - (void)changeColor
 {
-    CCOPalette *palette = [CCOPalette getInstance];
-    CGColorRef color = [palette grabColor];
+    CGColorRef color = [self.palette grabColor];
     
     [CATransaction begin];
     [CATransaction setAnimationDuration:2.0];

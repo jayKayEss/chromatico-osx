@@ -18,26 +18,6 @@
 
 @implementation CCOPalette
 
-+ (id)getInstance
-{
-    static CCOPalette *instance;
-    
-    if (!instance) {
-        instance = [[CCOPalette alloc] init];
-    }
-    
-    return instance;
-}
-
-- (id)init
-{
-    self = [super init];
-    if (self) {
-        [self changeToNewColors];
-    }
-    return self;
-}
-
 - (CGColorRef)grabColor
 {
     if (self.cursor >= [self.colors count]) {
@@ -53,8 +33,6 @@
     int minColors = [CCOConstants minColors];
     int maxColors = [CCOConstants maxColors];
     int numColors = arc4random_uniform(maxColors - minColors + 1) + minColors;
-    
-    NSLog(@"### Palette has %i colors!", numColors);
     
     NSMutableArray *colors = [[NSMutableArray alloc] init];
     

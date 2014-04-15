@@ -8,7 +8,6 @@
 
 #import "CCOAppDelegate.h"
 #import "ChromaticoSaverView.h"
-#import "CCOChromaticoView.h"
 
 @implementation CCOAppDelegate
 
@@ -17,8 +16,15 @@
     NSView *contentView = self.window.contentView;
     self.chromaticoView = [[ChromaticoSaverView alloc] initWithFrame:contentView.frame];
     [contentView addSubview:self.chromaticoView];
-    NSLog(@"App did finish launching!");
+
     [self.chromaticoView startAnimation];
+    
+    // Mimic screensaver framework
+    [NSTimer scheduledTimerWithTimeInterval:[self.chromaticoView animationTimeInterval]
+                                     target:self.chromaticoView
+                                   selector:@selector(animateOneFrame)
+                                   userInfo:nil
+                                    repeats:YES];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)notification
