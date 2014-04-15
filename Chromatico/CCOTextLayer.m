@@ -34,7 +34,7 @@
     
     [CATransaction begin];
     [CATransaction setAnimationDuration:0.0];
-    CGFloat fontSize = (CGFloat)arc4random_uniform(outerHeight) + (outerHeight / 7);
+    CGFloat fontSize = (CGFloat)arc4random_uniform(outerHeight) + (outerHeight / 10);
     CGFloat zPosition = (CGFloat)arc4random_uniform(100) + 100;
     CGColorRef color = [self.palette grabColor];
     NSString *fontName = [CCOConstants getRandomFont];
@@ -44,10 +44,12 @@
     self.textLayer.fontSize = fontSize;
     self.textLayer.foregroundColor = color;
     self.textLayer.zPosition = zPosition;
+    
+    // sets layer origin to middle point
     [self.textLayer adjustBoundsToFit];
     
     self.xPos = outerWidth + (self.layer.bounds.size.width / 2);
-    self.yPos = (float)arc4random_uniform((int)self.outerBounds.size.height - 1) + 1.0;
+    self.yPos = (float)arc4random_uniform(outerHeight);
     self.xFinal = 0 - (self.layer.bounds.size.width / 2);
 
     self.textLayer.position = CGPointMake(self.xPos, self.yPos);
