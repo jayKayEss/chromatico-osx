@@ -83,7 +83,7 @@
 		00527C1018FC5526008FF750 /* CCOStripeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOStripeLayer.m; sourceTree = "<group>"; };
 		00527C1118FC5526008FF750 /* CCOTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOTextLayer.h; sourceTree = "<group>"; };
 		00527C1218FC5526008FF750 /* CCOTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOTextLayer.m; sourceTree = "<group>"; };
-		0057121618FB426600BF3D8C /* Chromatico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chromatico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0057121618FB426600BF3D8C /* ChromaticoTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaticoTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0057121918FB426600BF3D8C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0057121C18FB426600BF3D8C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0057121D18FB426600BF3D8C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -101,7 +101,7 @@
 		0057123F18FB426600BF3D8C /* ChromaticoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChromaticoTests-Info.plist"; sourceTree = "<group>"; };
 		0057124118FB426600BF3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0057124318FB426600BF3D8C /* ChromaticoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromaticoTests.m; sourceTree = "<group>"; };
-		0057125318FB42B900BF3D8C /* ChromaticoSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromaticoSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		0057125318FB42B900BF3D8C /* Chromatico.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chromatico.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		0057125518FB42B900BF3D8C /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 		0057125918FB42B900BF3D8C /* ChromaticoSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChromaticoSaver-Info.plist"; sourceTree = "<group>"; };
 		0057125B18FB42B900BF3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -165,9 +165,9 @@
 		0057121718FB426600BF3D8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0057121618FB426600BF3D8C /* Chromatico.app */,
+				0057121618FB426600BF3D8C /* ChromaticoTester.app */,
 				0057123718FB426600BF3D8C /* ChromaticoTests.xctest */,
-				0057125318FB42B900BF3D8C /* ChromaticoSaver.saver */,
+				0057125318FB42B900BF3D8C /* Chromatico.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,9 +293,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0057121518FB426600BF3D8C /* Chromatico */ = {
+		0057121518FB426600BF3D8C /* ChromaticoTester */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0057124718FB426600BF3D8C /* Build configuration list for PBXNativeTarget "Chromatico" */;
+			buildConfigurationList = 0057124718FB426600BF3D8C /* Build configuration list for PBXNativeTarget "ChromaticoTester" */;
 			buildPhases = (
 				0057121218FB426600BF3D8C /* Sources */,
 				0057121318FB426600BF3D8C /* Frameworks */,
@@ -305,9 +305,9 @@
 			);
 			dependencies = (
 			);
-			name = Chromatico;
+			name = ChromaticoTester;
 			productName = Chromatico;
-			productReference = 0057121618FB426600BF3D8C /* Chromatico.app */;
+			productReference = 0057121618FB426600BF3D8C /* ChromaticoTester.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0057123618FB426600BF3D8C /* ChromaticoTests */ = {
@@ -328,9 +328,9 @@
 			productReference = 0057123718FB426600BF3D8C /* ChromaticoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0057125218FB42B900BF3D8C /* ChromaticoSaver */ = {
+		0057125218FB42B900BF3D8C /* Chromatico */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0057126118FB42B900BF3D8C /* Build configuration list for PBXNativeTarget "ChromaticoSaver" */;
+			buildConfigurationList = 0057126118FB42B900BF3D8C /* Build configuration list for PBXNativeTarget "Chromatico" */;
 			buildPhases = (
 				0057124D18FB42B900BF3D8C /* Sources */,
 				0057124E18FB42B900BF3D8C /* Frameworks */,
@@ -342,9 +342,9 @@
 			);
 			dependencies = (
 			);
-			name = ChromaticoSaver;
+			name = Chromatico;
 			productName = ChromaticoSaver;
-			productReference = 0057125318FB42B900BF3D8C /* ChromaticoSaver.saver */;
+			productReference = 0057125318FB42B900BF3D8C /* Chromatico.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -375,9 +375,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0057121518FB426600BF3D8C /* Chromatico */,
+				0057121518FB426600BF3D8C /* ChromaticoTester */,
 				0057123618FB426600BF3D8C /* ChromaticoTests */,
-				0057125218FB42B900BF3D8C /* ChromaticoSaver */,
+				0057125218FB42B900BF3D8C /* Chromatico */,
 			);
 		};
 /* End PBXProject section */
@@ -480,7 +480,7 @@
 /* Begin PBXTargetDependency section */
 		0057123C18FB426600BF3D8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0057121518FB426600BF3D8C /* Chromatico */;
+			target = 0057121518FB426600BF3D8C /* ChromaticoTester */;
 			targetProxy = 0057123B18FB426600BF3D8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -697,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0057124718FB426600BF3D8C /* Build configuration list for PBXNativeTarget "Chromatico" */ = {
+		0057124718FB426600BF3D8C /* Build configuration list for PBXNativeTarget "ChromaticoTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0057124818FB426600BF3D8C /* Debug */,
@@ -715,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0057126118FB42B900BF3D8C /* Build configuration list for PBXNativeTarget "ChromaticoSaver" */ = {
+		0057126118FB42B900BF3D8C /* Build configuration list for PBXNativeTarget "Chromatico" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0057126218FB42B900BF3D8C /* Debug */,

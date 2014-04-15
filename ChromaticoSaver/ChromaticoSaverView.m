@@ -111,7 +111,7 @@
 - (void)changePalette
 {
     [self.palette changeToNewColors];
-    
+
     CGColorRef color = [self.palette grabColor];
     [CATransaction begin];
     [CATransaction setAnimationDuration:2.0];

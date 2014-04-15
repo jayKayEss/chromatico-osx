@@ -36,9 +36,11 @@
     CGFloat width = (float)arc4random_uniform((int)self.outerBounds.size.width / 2) + 1.0;
     CGRect rect = CGRectMake(0, 0, width, self.outerBounds.size.height);
     CGPathRef path = CGPathCreateWithRect(rect, nil);
-    
+    CGFloat zPosition = (CGFloat)arc4random_uniform(100);
+
     self.shapeLayer.path = path;
     self.shapeLayer.fillColor = color;
+    self.shapeLayer.zPosition = zPosition;
     
     self.xPos = self.outerBounds.size.width + width;
     self.xFinal = 0 - width;

@@ -35,7 +35,7 @@
     [CATransaction begin];
     [CATransaction setAnimationDuration:0.0];
     CGFloat fontSize = (CGFloat)arc4random_uniform(outerHeight) + (outerHeight / 7);
-    CGFloat zPosition = (CGFloat)arc4random_uniform(100);
+    CGFloat zPosition = (CGFloat)arc4random_uniform(100) + 100;
     CGColorRef color = [self.palette grabColor];
     NSString *fontName = [CCOConstants getRandomFont];
 
