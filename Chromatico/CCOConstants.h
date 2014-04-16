@@ -16,5 +16,6 @@
 + (NSString *)getRandomFont;
 + (int)minColors;
 + (int)maxColors;
++ (float)getColorAnimationDuration;
 
 @end

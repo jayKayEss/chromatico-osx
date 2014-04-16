@@ -133,5 +133,9 @@
     return fonts[n];
 }
 
++ (float)getColorAnimationDuration
+{
+    return 5.0;
+}
 
 @end

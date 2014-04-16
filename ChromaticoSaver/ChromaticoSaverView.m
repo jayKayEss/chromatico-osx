@@ -9,6 +9,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 #import "ChromaticoSaverView.h"
+#import "CCOConstants.h"
 #import "CCOPalette.h"
 #import "CCOLayer.h"
 #import "CCOBlockLayer.h"
@@ -111,10 +112,11 @@
 - (void)changePalette
 {
     [self.palette changeToNewColors];
+    float duration = [CCOConstants getColorAnimationDuration];
 
     CGColorRef color = [self.palette grabColor];
     [CATransaction begin];
-    [CATransaction setAnimationDuration:2.0];
+    [CATransaction setAnimationDuration:duration];
     [CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear]];
     self.layer.backgroundColor = color;
     [CATransaction commit];

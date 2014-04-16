@@ -57,9 +57,10 @@
 - (void)changeColor
 {
     CGColorRef color = [self.palette grabColor];
+    float duration = [CCOConstants getColorAnimationDuration];
     
     [CATransaction begin];
-    [CATransaction setAnimationDuration:2.0];
+    [CATransaction setAnimationDuration:duration];
     self.shapeLayer.fillColor = color;
     [CATransaction commit];
     

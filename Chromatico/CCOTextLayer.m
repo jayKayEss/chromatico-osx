@@ -59,9 +59,10 @@
 - (void)changeColor
 {
     CGColorRef color = [self.palette grabColor];
+    float duration = [CCOConstants getColorAnimationDuration];
     
     [CATransaction begin];
-    [CATransaction setAnimationDuration:2.0];
+    [CATransaction setAnimationDuration:duration];
     [CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear]];
     self.textLayer.foregroundColor = color;
     [CATransaction commit];
