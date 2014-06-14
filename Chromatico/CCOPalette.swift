@@ -28,8 +28,8 @@ import Foundation
     }
     
     func changeToNewColors() {
-        let minColors = CCOConstants.minColors()
-        let maxColors = CCOConstants.maxColors()
+        let minColors = CCOConstants.minColors
+        let maxColors = CCOConstants.maxColors
         let numColors = CCORandom.rand(maxColors - minColors + 1) + minColors
         
         var newColors: NSColor[] = [];

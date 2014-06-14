@@ -93,7 +93,7 @@ class ChromaticoSaverView : ScreenSaverView {
     
     func changePalette() {
         palette.changeToNewColors();
-        let duration = CFTimeInterval(CCOConstants.getColorAnimationDuration())
+        let duration = CFTimeInterval(CCOConstants.colorAnimationDuration)
         
         let color = palette.grabColor()
         

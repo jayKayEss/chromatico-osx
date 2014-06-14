@@ -10,15 +10,11 @@ import Foundation
 
 @objc class CCOConstants {
     
-    class func minColors() -> Int {
-        return 2;
-    }
+    class var minColors: Int { return 2 }
+    class var maxColors: Int { return 4 }
+    class var colorAnimationDuration: Float { return 5.0 }
     
-    class func maxColors() -> Int {
-        return 4;
-    }
-
-    class func allStrings() -> String[] {
+    class var allStrings: String[] {
         return [
             "||||||||||++++++++++||||||||||++++++++++\n++++++++++||||||||||++++++++++||||||||||\n||||||||||++++++++++||||||||||++++++++++\n++++++++++||||||||||++++++++++||||||||||",
             
@@ -87,14 +83,8 @@ import Foundation
             "0000 0001 0010 0011\n0100 0101 0110 0111\n1000 1001 1010 1011\n1100 1101 1110 1111"
         ];
     }
-    
-    class func getRandomString() -> String {
-        let strings = self.allStrings()
-        let n = CCORandom.rand(strings.count)
-        return strings[n]
-    }
-    
-    class func allFonts() -> String[] {
+
+    class var allFonts: String[] {
         return [
             "HelveticaNeue",
             "HelveticaNeue-Bold",
@@ -105,13 +95,19 @@ import Foundation
         ]
     }
     
-    class func getRandomFont() -> String {
-        let fonts = allFonts()
-        let n = CCORandom.rand(fonts.count)
-        return fonts[n]
+    class func getRandomString() -> String {
+        let n = CCORandom.rand(allStrings.count)
+        return allStrings[n]
     }
     
-    class func getColorAnimationDuration() -> Float {
-        return 5.0
+    class func getRandomFont() -> String {
+        let n = CCORandom.rand(allFonts.count)
+        return allFonts[n]
     }
+    
+    // backwards-compat
+    class func getColorAnimationDuration() -> Float {
+        return colorAnimationDuration
+    }
+    
 }
