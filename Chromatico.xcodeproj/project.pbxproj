@@ -27,7 +27,6 @@
 		0057122418FB426600BF3D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0057122218FB426600BF3D8C /* InfoPlist.strings */; };
 		0057122618FB426600BF3D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057122518FB426600BF3D8C /* main.m */; };
 		0057122A18FB426600BF3D8C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0057122818FB426600BF3D8C /* Credits.rtf */; };
-		0057122D18FB426600BF3D8C /* CCOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057122C18FB426600BF3D8C /* CCOAppDelegate.m */; };
 		0057123218FB426600BF3D8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0057123118FB426600BF3D8C /* Images.xcassets */; };
 		0057123918FB426600BF3D8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057123818FB426600BF3D8C /* XCTest.framework */; };
 		0057123A18FB426600BF3D8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057121918FB426600BF3D8C /* Cocoa.framework */; };
@@ -58,6 +57,9 @@
 		00A11334194CFAAF0006ABEB /* NSColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A11333194CFAAF0006ABEB /* NSColor+Random.swift */; };
 		00A11335194CFAAF0006ABEB /* NSColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A11333194CFAAF0006ABEB /* NSColor+Random.swift */; };
 		00A11336194CFAAF0006ABEB /* NSColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A11333194CFAAF0006ABEB /* NSColor+Random.swift */; };
+		00A11338194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */; };
+		00A11339194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */; };
+		00A1133A194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */; };
 		00CD679618FCC7B30018ACC4 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057125518FB42B900BF3D8C /* ScreenSaver.framework */; };
 		00E60972194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */; };
 		00E60973194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */; };
@@ -123,6 +125,7 @@
 		00A1132E194CF5050006ABEB /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		00A1132F194CF6C20006ABEB /* CCORandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCORandom.swift; sourceTree = "<group>"; };
 		00A11333194CFAAF0006ABEB /* NSColor+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Random.swift"; sourceTree = "<group>"; };
+		00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCOAppDelegate.swift; sourceTree = "<group>"; };
 		00E60970194CD78500D1E6AE /* Chromatico-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chromatico-Bridging-Header.h"; sourceTree = "<group>"; };
 		00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaticoSaverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -206,6 +209,7 @@
 		0057121F18FB426600BF3D8C /* Chromatico */ = {
 			isa = PBXGroup;
 			children = (
+				00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */,
 				0057122B18FB426600BF3D8C /* CCOAppDelegate.h */,
 				0057122C18FB426600BF3D8C /* CCOAppDelegate.m */,
 				005712D518FB49E500BF3D8C /* CCOPalette.h */,
@@ -440,9 +444,9 @@
 				00E60972194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
 				00527C2418FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				00A11330194CF6C20006ABEB /* CCORandom.swift in Sources */,
+				00A11338194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */,
 				00527C2018FC5526008FF750 /* CCOStripeLayer.m in Sources */,
 				00527C1C18FC5526008FF750 /* CCOLayer.m in Sources */,
-				0057122D18FB426600BF3D8C /* CCOAppDelegate.m in Sources */,
 				005712B318FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
 				00A1132B194CF14F0006ABEB /* CCOConstants.swift in Sources */,
 				00A11334194CFAAF0006ABEB /* NSColor+Random.swift in Sources */,
@@ -460,6 +464,7 @@
 				005712D918FB49E500BF3D8C /* CCOPalette.m in Sources */,
 				00A1132C194CF14F0006ABEB /* CCOConstants.swift in Sources */,
 				00A11335194CFAAF0006ABEB /* NSColor+Random.swift in Sources */,
+				00A11339194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */,
 				00E60973194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
 				00527C2518FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				0057124418FB426600BF3D8C /* ChromaticoTests.m in Sources */,
@@ -480,6 +485,7 @@
 				00A1132D194CF14F0006ABEB /* CCOConstants.swift in Sources */,
 				00527C2218FC5526008FF750 /* CCOStripeLayer.m in Sources */,
 				00527C1618FC5526008FF750 /* CCOBlockLayer.m in Sources */,
+				00A1133A194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */,
 				00A11332194CF6C20006ABEB /* CCORandom.swift in Sources */,
 				00527C1E18FC5526008FF750 /* CCOLayer.m in Sources */,
 				005712B518FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
