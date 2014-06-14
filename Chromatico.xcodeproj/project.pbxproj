@@ -40,7 +40,6 @@
 		0057125418FB42B900BF3D8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057121918FB426600BF3D8C /* Cocoa.framework */; };
 		0057125618FB42B900BF3D8C /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057125518FB42B900BF3D8C /* ScreenSaver.framework */; };
 		0057125C18FB42B900BF3D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0057125A18FB42B900BF3D8C /* InfoPlist.strings */; };
-		0057126018FB42B900BF3D8C /* ChromaticoSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057125F18FB42B900BF3D8C /* ChromaticoSaverView.m */; };
 		005712AC18FB434800BF3D8C /* NSColor+Random.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712AA18FB434800BF3D8C /* NSColor+Random.h */; };
 		005712AD18FB434800BF3D8C /* NSColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712AB18FB434800BF3D8C /* NSColor+Random.m */; };
 		005712AE18FB434800BF3D8C /* NSColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712AB18FB434800BF3D8C /* NSColor+Random.m */; };
@@ -58,8 +57,10 @@
 		005712D818FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
 		005712D918FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
 		005712DA18FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
-		00CD679518FCC75E0018ACC4 /* ChromaticoSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057125F18FB42B900BF3D8C /* ChromaticoSaverView.m */; };
 		00CD679618FCC7B30018ACC4 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057125518FB42B900BF3D8C /* ScreenSaver.framework */; };
+		00E60972194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */; };
+		00E60973194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */; };
+		00E60974194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,13 @@
 			containerPortal = 0057120E18FB426600BF3D8C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0057121518FB426600BF3D8C;
+			remoteInfo = Chromatico;
+		};
+		00E60976194CE85F00D1E6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0057120E18FB426600BF3D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0057125218FB42B900BF3D8C;
 			remoteInfo = Chromatico;
 		};
 /* End PBXContainerItemProxy section */
@@ -106,8 +114,6 @@
 		0057125918FB42B900BF3D8C /* ChromaticoSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChromaticoSaver-Info.plist"; sourceTree = "<group>"; };
 		0057125B18FB42B900BF3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0057125D18FB42B900BF3D8C /* ChromaticoSaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChromaticoSaver-Prefix.pch"; sourceTree = "<group>"; };
-		0057125E18FB42B900BF3D8C /* ChromaticoSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromaticoSaverView.h; sourceTree = "<group>"; };
-		0057125F18FB42B900BF3D8C /* ChromaticoSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromaticoSaverView.m; sourceTree = "<group>"; };
 		005712AA18FB434800BF3D8C /* NSColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Random.h"; sourceTree = "<group>"; };
 		005712AB18FB434800BF3D8C /* NSColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Random.m"; sourceTree = "<group>"; };
 		005712B018FB435200BF3D8C /* CATextLayer+AutoSizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATextLayer+AutoSizing.h"; sourceTree = "<group>"; };
@@ -116,6 +122,8 @@
 		005712D218FB455800BF3D8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		005712D518FB49E500BF3D8C /* CCOPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOPalette.h; sourceTree = "<group>"; };
 		005712D618FB49E500BF3D8C /* CCOPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOPalette.m; sourceTree = "<group>"; };
+		00E60970194CD78500D1E6AE /* Chromatico-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chromatico-Bridging-Header.h"; sourceTree = "<group>"; };
+		00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaticoSaverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,9 +263,9 @@
 		0057125718FB42B900BF3D8C /* ChromaticoSaver */ = {
 			isa = PBXGroup;
 			children = (
-				0057125E18FB42B900BF3D8C /* ChromaticoSaverView.h */,
-				0057125F18FB42B900BF3D8C /* ChromaticoSaverView.m */,
+				00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */,
 				0057125818FB42B900BF3D8C /* Supporting Files */,
+				00E60970194CD78500D1E6AE /* Chromatico-Bridging-Header.h */,
 			);
 			path = ChromaticoSaver;
 			sourceTree = "<group>";
@@ -304,6 +312,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				00E60977194CE85F00D1E6AE /* PBXTargetDependency */,
 			);
 			name = ChromaticoTester;
 			productName = Chromatico;
@@ -429,7 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CD679518FCC75E0018ACC4 /* ChromaticoSaverView.m in Sources */,
+				00E60972194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
 				00527C2418FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				00527C1818FC5526008FF750 /* CCOConstants.m in Sources */,
 				00527C2018FC5526008FF750 /* CCOStripeLayer.m in Sources */,
@@ -448,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				005712D918FB49E500BF3D8C /* CCOPalette.m in Sources */,
+				00E60973194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
 				00527C2518FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				0057124418FB426600BF3D8C /* ChromaticoTests.m in Sources */,
 				00527C1918FC5526008FF750 /* CCOConstants.m in Sources */,
@@ -464,8 +474,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				005712DA18FB49E500BF3D8C /* CCOPalette.m in Sources */,
+				00E60974194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
 				00527C2618FC5526008FF750 /* CCOTextLayer.m in Sources */,
-				0057126018FB42B900BF3D8C /* ChromaticoSaverView.m in Sources */,
 				00527C1A18FC5526008FF750 /* CCOConstants.m in Sources */,
 				00527C2218FC5526008FF750 /* CCOStripeLayer.m in Sources */,
 				00527C1618FC5526008FF750 /* CCOBlockLayer.m in Sources */,
@@ -482,6 +492,11 @@
 			isa = PBXTargetDependency;
 			target = 0057121518FB426600BF3D8C /* ChromaticoTester */;
 			targetProxy = 0057123B18FB426600BF3D8C /* PBXContainerItemProxy */;
+		};
+		00E60977194CE85F00D1E6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0057125218FB42B900BF3D8C /* Chromatico */;
+			targetProxy = 00E60976194CE85F00D1E6AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -593,11 +608,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Chromatico/Chromatico-Prefix.pch";
 				INFOPLIST_FILE = "Chromatico/Chromatico-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_MODULE_NAME = Chromatico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChromaticoSaver/Chromatico-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -606,11 +627,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Chromatico/Chromatico-Prefix.pch";
 				INFOPLIST_FILE = "Chromatico/Chromatico-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_MODULE_NAME = Chromatico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChromaticoSaver/Chromatico-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -619,6 +645,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chromatico.app/Contents/MacOS/Chromatico";
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -631,7 +658,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ChromaticoTests/ChromaticoTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_MODULE_NAME = Chromatico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChromaticoSaver/Chromatico-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -641,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chromatico.app/Contents/MacOS/Chromatico";
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -649,7 +681,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Chromatico/Chromatico-Prefix.pch";
 				INFOPLIST_FILE = "ChromaticoTests/ChromaticoTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_MODULE_NAME = Chromatico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChromaticoSaver/Chromatico-Bridging-Header.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -658,7 +693,9 @@
 		0057126218FB42B900BF3D8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChromaticoSaver/ChromaticoSaver-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -667,7 +704,10 @@
 				);
 				INFOPLIST_FILE = "ChromaticoSaver/ChromaticoSaver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChromaticoSaver/Chromatico-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -675,12 +715,16 @@
 		0057126318FB42B900BF3D8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChromaticoSaver/ChromaticoSaver-Prefix.pch";
 				INFOPLIST_FILE = "ChromaticoSaver/ChromaticoSaver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChromaticoSaver/Chromatico-Bridging-Header.h";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
