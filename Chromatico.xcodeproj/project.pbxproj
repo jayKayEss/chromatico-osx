@@ -102,8 +102,6 @@
 		0057122518FB426600BF3D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0057122718FB426600BF3D8C /* Chromatico-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chromatico-Prefix.pch"; sourceTree = "<group>"; };
 		0057122918FB426600BF3D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		0057122B18FB426600BF3D8C /* CCOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCOAppDelegate.h; sourceTree = "<group>"; };
-		0057122C18FB426600BF3D8C /* CCOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCOAppDelegate.m; sourceTree = "<group>"; };
 		0057123118FB426600BF3D8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0057123718FB426600BF3D8C /* ChromaticoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromaticoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0057123818FB426600BF3D8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -210,8 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */,
-				0057122B18FB426600BF3D8C /* CCOAppDelegate.h */,
-				0057122C18FB426600BF3D8C /* CCOAppDelegate.m */,
 				005712D518FB49E500BF3D8C /* CCOPalette.h */,
 				005712D618FB49E500BF3D8C /* CCOPalette.m */,
 				00527C0918FC5526008FF750 /* CCOBlockLayer.h */,
