@@ -7,7 +7,6 @@
 //
 
 #import "CCOPalette.h"
-#import "NSColor+Random.h"
 #import "CCOLayer.h"
 #import "Chromatico-Swift.h"
 
