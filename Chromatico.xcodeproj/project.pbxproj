@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00527C1318FC5526008FF750 /* CCOBlockLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 00527C0918FC5526008FF750 /* CCOBlockLayer.h */; };
-		00527C1418FC5526008FF750 /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0A18FC5526008FF750 /* CCOBlockLayer.m */; };
-		00527C1518FC5526008FF750 /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0A18FC5526008FF750 /* CCOBlockLayer.m */; };
-		00527C1618FC5526008FF750 /* CCOBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0A18FC5526008FF750 /* CCOBlockLayer.m */; };
 		00527C1B18FC5526008FF750 /* CCOLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 00527C0D18FC5526008FF750 /* CCOLayer.h */; };
 		00527C1C18FC5526008FF750 /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0E18FC5526008FF750 /* CCOLayer.m */; };
 		00527C1D18FC5526008FF750 /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0E18FC5526008FF750 /* CCOLayer.m */; };
@@ -58,6 +54,9 @@
 		00B5622E194D0E5A00EBE8A0 /* CCOStripeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5622D194D0E5A00EBE8A0 /* CCOStripeLayer.swift */; };
 		00B5622F194D122900EBE8A0 /* CCOStripeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5622D194D0E5A00EBE8A0 /* CCOStripeLayer.swift */; };
 		00B56230194D122900EBE8A0 /* CCOStripeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5622D194D0E5A00EBE8A0 /* CCOStripeLayer.swift */; };
+		00B56232194D144000EBE8A0 /* CCOBlockLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B56231194D144000EBE8A0 /* CCOBlockLayer.swift */; };
+		00B56233194D144000EBE8A0 /* CCOBlockLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B56231194D144000EBE8A0 /* CCOBlockLayer.swift */; };
+		00B56234194D144000EBE8A0 /* CCOBlockLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B56231194D144000EBE8A0 /* CCOBlockLayer.swift */; };
 		00CD679618FCC7B30018ACC4 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057125518FB42B900BF3D8C /* ScreenSaver.framework */; };
 		00E60972194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */; };
 		00E60973194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */; };
@@ -75,8 +74,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00527C0918FC5526008FF750 /* CCOBlockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOBlockLayer.h; sourceTree = "<group>"; };
-		00527C0A18FC5526008FF750 /* CCOBlockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOBlockLayer.m; sourceTree = "<group>"; };
 		00527C0D18FC5526008FF750 /* CCOLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOLayer.h; sourceTree = "<group>"; };
 		00527C0E18FC5526008FF750 /* CCOLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOLayer.m; sourceTree = "<group>"; };
 		00527C1118FC5526008FF750 /* CCOTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOTextLayer.h; sourceTree = "<group>"; };
@@ -113,6 +110,7 @@
 		00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCOAppDelegate.swift; sourceTree = "<group>"; };
 		00ADA3A2194D084E0018A90A /* CCOPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCOPalette.swift; sourceTree = "<group>"; };
 		00B5622D194D0E5A00EBE8A0 /* CCOStripeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCOStripeLayer.swift; sourceTree = "<group>"; };
+		00B56231194D144000EBE8A0 /* CCOBlockLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCOBlockLayer.swift; sourceTree = "<group>"; };
 		00E60970194CD78500D1E6AE /* Chromatico-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chromatico-Bridging-Header.h"; sourceTree = "<group>"; };
 		00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaticoSaverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,9 +199,8 @@
 				00A1132A194CF14F0006ABEB /* CCOConstants.swift */,
 				00527C0D18FC5526008FF750 /* CCOLayer.h */,
 				00527C0E18FC5526008FF750 /* CCOLayer.m */,
-				00527C0918FC5526008FF750 /* CCOBlockLayer.h */,
-				00527C0A18FC5526008FF750 /* CCOBlockLayer.m */,
 				00B5622D194D0E5A00EBE8A0 /* CCOStripeLayer.swift */,
+				00B56231194D144000EBE8A0 /* CCOBlockLayer.swift */,
 				00527C1118FC5526008FF750 /* CCOTextLayer.h */,
 				00527C1218FC5526008FF750 /* CCOTextLayer.m */,
 				005712B018FB435200BF3D8C /* CATextLayer+AutoSizing.h */,
@@ -276,7 +273,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				005712B218FB435200BF3D8C /* CATextLayer+AutoSizing.h in Headers */,
-				00527C1318FC5526008FF750 /* CCOBlockLayer.h in Headers */,
 				00527C1B18FC5526008FF750 /* CCOLayer.h in Headers */,
 				00527C2318FC5526008FF750 /* CCOTextLayer.h in Headers */,
 			);
@@ -430,8 +426,8 @@
 				00A1132B194CF14F0006ABEB /* CCOConstants.swift in Sources */,
 				00A11334194CFAAF0006ABEB /* NSColor+Random.swift in Sources */,
 				00B56230194D122900EBE8A0 /* CCOStripeLayer.swift in Sources */,
-				00527C1418FC5526008FF750 /* CCOBlockLayer.m in Sources */,
 				00ADA3A3194D084E0018A90A /* CCOPalette.swift in Sources */,
+				00B56232194D144000EBE8A0 /* CCOBlockLayer.swift in Sources */,
 				0057122618FB426600BF3D8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,10 +443,10 @@
 				00E60973194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
 				00527C2518FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				0057124418FB426600BF3D8C /* ChromaticoTests.m in Sources */,
-				00527C1518FC5526008FF750 /* CCOBlockLayer.m in Sources */,
 				00B5622F194D122900EBE8A0 /* CCOStripeLayer.swift in Sources */,
 				00ADA3A4194D084E0018A90A /* CCOPalette.swift in Sources */,
 				00527C1D18FC5526008FF750 /* CCOLayer.m in Sources */,
+				00B56233194D144000EBE8A0 /* CCOBlockLayer.swift in Sources */,
 				005712B418FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,10 +458,10 @@
 				00E60974194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
 				00527C2618FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				00A1132D194CF14F0006ABEB /* CCOConstants.swift in Sources */,
-				00527C1618FC5526008FF750 /* CCOBlockLayer.m in Sources */,
 				00A1133A194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */,
 				00A11332194CF6C20006ABEB /* CCORandom.swift in Sources */,
 				00527C1E18FC5526008FF750 /* CCOLayer.m in Sources */,
+				00B56234194D144000EBE8A0 /* CCOBlockLayer.swift in Sources */,
 				00B5622E194D0E5A00EBE8A0 /* CCOStripeLayer.swift in Sources */,
 				005712B518FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
 				00A11336194CFAAF0006ABEB /* NSColor+Random.swift in Sources */,

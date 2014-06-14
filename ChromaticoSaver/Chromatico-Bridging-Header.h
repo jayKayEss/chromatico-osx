@@ -4,5 +4,4 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 #import "CCOLayer.h"
-#import "CCOBlockLayer.h"
 #import "CCOTextLayer.h"
