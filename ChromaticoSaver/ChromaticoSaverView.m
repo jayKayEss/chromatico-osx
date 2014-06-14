@@ -54,7 +54,7 @@
             [self addCCOLayer:layer];
         }
         
-        for (int i=0; i<3; i++) {
+        for (int i=0; i<5; i++) {
             CCOTextLayer *layer = [[CCOTextLayer alloc] initWithPalette:self.palette];
             [self addCCOLayer:layer];
         }
