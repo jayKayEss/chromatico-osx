@@ -30,7 +30,7 @@ class ChromaticoSaverView : ScreenSaverView {
         setAnimationTimeInterval(NSTimeInterval(HUGE))
 
         wantsLayer = true
-        hostedLayer.backgroundColor = palette.grabColor().takeRetainedValue()
+        hostedLayer.backgroundColor = palette.grabColor()
         layer = hostedLayer
         
         for (var i=0; i<3; i++) {
@@ -95,7 +95,7 @@ class ChromaticoSaverView : ScreenSaverView {
         palette.changeToNewColors();
         let duration = CFTimeInterval(CCOConstants.getColorAnimationDuration())
         
-        let color = palette.grabColor().takeRetainedValue()
+        let color = palette.grabColor()
         
         CATransaction.begin()
         CATransaction.setAnimationDuration(duration)

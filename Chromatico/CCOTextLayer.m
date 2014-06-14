@@ -9,7 +9,6 @@
 #import <QuartzCore/QuartzCore.h>
 
 #import "CCOTextLayer.h"
-#import "CCOPalette.h"
 #import "CATextLayer+AutoSizing.h"
 #import "CCOLayer.h"
 #import "Chromatico-Swift.h"

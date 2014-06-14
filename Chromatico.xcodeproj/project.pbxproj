@@ -44,10 +44,6 @@
 		005712D118FB44A000BF3D8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005712CE18FB44A000BF3D8C /* MainMenu.xib */; };
 		005712D318FB455800BF3D8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005712D218FB455800BF3D8C /* QuartzCore.framework */; };
 		005712D418FB457F00BF3D8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005712D218FB455800BF3D8C /* QuartzCore.framework */; };
-		005712D718FB49E500BF3D8C /* CCOPalette.h in Headers */ = {isa = PBXBuildFile; fileRef = 005712D518FB49E500BF3D8C /* CCOPalette.h */; };
-		005712D818FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
-		005712D918FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
-		005712DA18FB49E500BF3D8C /* CCOPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 005712D618FB49E500BF3D8C /* CCOPalette.m */; };
 		00A1132B194CF14F0006ABEB /* CCOConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1132A194CF14F0006ABEB /* CCOConstants.swift */; };
 		00A1132C194CF14F0006ABEB /* CCOConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1132A194CF14F0006ABEB /* CCOConstants.swift */; };
 		00A1132D194CF14F0006ABEB /* CCOConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1132A194CF14F0006ABEB /* CCOConstants.swift */; };
@@ -60,6 +56,9 @@
 		00A11338194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */; };
 		00A11339194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */; };
 		00A1133A194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */; };
+		00ADA3A3194D084E0018A90A /* CCOPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADA3A2194D084E0018A90A /* CCOPalette.swift */; };
+		00ADA3A4194D084E0018A90A /* CCOPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADA3A2194D084E0018A90A /* CCOPalette.swift */; };
+		00ADA3A5194D084E0018A90A /* CCOPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADA3A2194D084E0018A90A /* CCOPalette.swift */; };
 		00CD679618FCC7B30018ACC4 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057125518FB42B900BF3D8C /* ScreenSaver.framework */; };
 		00E60972194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */; };
 		00E60973194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */; };
@@ -117,13 +116,12 @@
 		005712B118FB435200BF3D8C /* CATextLayer+AutoSizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+AutoSizing.m"; sourceTree = "<group>"; };
 		005712CE18FB44A000BF3D8C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		005712D218FB455800BF3D8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		005712D518FB49E500BF3D8C /* CCOPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOPalette.h; sourceTree = "<group>"; };
-		005712D618FB49E500BF3D8C /* CCOPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOPalette.m; sourceTree = "<group>"; };
 		00A1132A194CF14F0006ABEB /* CCOConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCOConstants.swift; sourceTree = "<group>"; };
 		00A1132E194CF5050006ABEB /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		00A1132F194CF6C20006ABEB /* CCORandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCORandom.swift; sourceTree = "<group>"; };
 		00A11333194CFAAF0006ABEB /* NSColor+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Random.swift"; sourceTree = "<group>"; };
 		00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCOAppDelegate.swift; sourceTree = "<group>"; };
+		00ADA3A2194D084E0018A90A /* CCOPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCOPalette.swift; sourceTree = "<group>"; };
 		00E60970194CD78500D1E6AE /* Chromatico-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chromatico-Bridging-Header.h"; sourceTree = "<group>"; };
 		00E60971194CD78600D1E6AE /* ChromaticoSaverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaticoSaverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,8 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */,
-				005712D518FB49E500BF3D8C /* CCOPalette.h */,
-				005712D618FB49E500BF3D8C /* CCOPalette.m */,
+				00ADA3A2194D084E0018A90A /* CCOPalette.swift */,
 				00527C0918FC5526008FF750 /* CCOBlockLayer.h */,
 				00527C0A18FC5526008FF750 /* CCOBlockLayer.m */,
 				00A1132A194CF14F0006ABEB /* CCOConstants.swift */,
@@ -290,7 +287,6 @@
 			files = (
 				005712B218FB435200BF3D8C /* CATextLayer+AutoSizing.h in Headers */,
 				00527C1318FC5526008FF750 /* CCOBlockLayer.h in Headers */,
-				005712D718FB49E500BF3D8C /* CCOPalette.h in Headers */,
 				00527C1B18FC5526008FF750 /* CCOLayer.h in Headers */,
 				00527C1F18FC5526008FF750 /* CCOStripeLayer.h in Headers */,
 				00527C2318FC5526008FF750 /* CCOTextLayer.h in Headers */,
@@ -447,8 +443,8 @@
 				00A1132B194CF14F0006ABEB /* CCOConstants.swift in Sources */,
 				00A11334194CFAAF0006ABEB /* NSColor+Random.swift in Sources */,
 				00527C1418FC5526008FF750 /* CCOBlockLayer.m in Sources */,
+				00ADA3A3194D084E0018A90A /* CCOPalette.swift in Sources */,
 				0057122618FB426600BF3D8C /* main.m in Sources */,
-				005712D818FB49E500BF3D8C /* CCOPalette.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +453,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A11331194CF6C20006ABEB /* CCORandom.swift in Sources */,
-				005712D918FB49E500BF3D8C /* CCOPalette.m in Sources */,
 				00A1132C194CF14F0006ABEB /* CCOConstants.swift in Sources */,
 				00A11335194CFAAF0006ABEB /* NSColor+Random.swift in Sources */,
 				00A11339194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */,
@@ -466,6 +461,7 @@
 				0057124418FB426600BF3D8C /* ChromaticoTests.m in Sources */,
 				00527C2118FC5526008FF750 /* CCOStripeLayer.m in Sources */,
 				00527C1518FC5526008FF750 /* CCOBlockLayer.m in Sources */,
+				00ADA3A4194D084E0018A90A /* CCOPalette.swift in Sources */,
 				00527C1D18FC5526008FF750 /* CCOLayer.m in Sources */,
 				005712B418FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
 			);
@@ -475,7 +471,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				005712DA18FB49E500BF3D8C /* CCOPalette.m in Sources */,
 				00E60974194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
 				00527C2618FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				00A1132D194CF14F0006ABEB /* CCOConstants.swift in Sources */,
@@ -486,6 +481,7 @@
 				00527C1E18FC5526008FF750 /* CCOLayer.m in Sources */,
 				005712B518FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
 				00A11336194CFAAF0006ABEB /* NSColor+Random.swift in Sources */,
+				00ADA3A5194D084E0018A90A /* CCOPalette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
