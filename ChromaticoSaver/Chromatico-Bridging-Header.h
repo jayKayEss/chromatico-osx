@@ -3,7 +3,6 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
-#import "CCOConstants.h"
 #import "CCOPalette.h"
 #import "CCOLayer.h"
 #import "CCOBlockLayer.h"

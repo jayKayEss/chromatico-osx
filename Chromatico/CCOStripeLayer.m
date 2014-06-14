@@ -9,8 +9,9 @@
 #import <QuartzCore/QuartzCore.h>
 
 #import "CCOStripeLayer.h"
-#import "CCOConstants.h"
 #import "CCOPalette.h"
+#import "CCOLayer.h"
+#import "Chromatico-Swift.h"
 
 @interface CCOStripeLayer ()
 

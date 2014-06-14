@@ -7,8 +7,9 @@
 //
 
 #import "CCOPalette.h"
-#import "CCOConstants.h"
 #import "NSColor+Random.h"
+#import "CCOLayer.h"
+#import "Chromatico-Swift.h"
 
 @interface CCOPalette ()
 
