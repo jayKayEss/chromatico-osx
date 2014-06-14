@@ -7,14 +7,16 @@
 //
 
 #import "CCOAppDelegate.h"
-#import "ChromaticoSaverView.h"
+#import "CCOPalette.h"
+#import "CCOLayer.h"
+#import "Chromatico-Swift.h"
 
 @implementation CCOAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     NSView *contentView = self.window.contentView;
-    self.chromaticoView = [[ChromaticoSaverView alloc] initWithFrame:contentView.frame];
+    self.chromaticoView = [[ChromaticoSaverView alloc] initWithFrame:contentView.frame isPreview:true];
     [contentView addSubview:self.chromaticoView];
 
     [self.chromaticoView startAnimation];

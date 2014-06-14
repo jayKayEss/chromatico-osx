@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
 @class ChromaticoSaverView;
 
 @interface CCOAppDelegate : NSObject <NSApplicationDelegate>
