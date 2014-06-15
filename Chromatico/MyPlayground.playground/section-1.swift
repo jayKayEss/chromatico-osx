@@ -1,11 +1,20 @@
 // Playground - noun: a place where people can play
 
 import Cocoa
+import QuartzCore
 
-var str = "Hello, playground"
+class Orgasm {
+    
+    let jizz: Int!
+    
+    init() {
+        jizz = 20
+    }
+    
+    func doIt() {
+        jizz = 30
+    }
+    
+}
 
-let foo = ["A", "B", "C"]
-let n = foo.count
-
-arc4random_uniform(CUnsignedInt(n))
 

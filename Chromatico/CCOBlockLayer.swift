@@ -14,15 +14,11 @@ class CCOBlockLayer: CCOLayer {
     var shapeLayer: CAShapeLayer!
     
     init(palette: CCOPalette!) {
-        super.init(palette: palette)
+        shapeLayer = CAShapeLayer()
+        super.init(palette: palette, layer: shapeLayer)
     }
 
-    func createLayer() {
-        shapeLayer = CAShapeLayer()
-        layer = shapeLayer
-    }
-    
-    func setUpGeometry() {
+    override func setUpGeometry() {
         CATransaction.begin()
         CATransaction.setAnimationDuration(CFTimeInterval(0))
         

@@ -14,15 +14,11 @@ class CCOTextLayer: CCOLayer {
     var textLayer: CATextLayer!
     
     init(palette: CCOPalette!) {
-        super.init(palette: palette)
-    }
-    
-    func createLayer() {
         textLayer = CATextLayer()
-        layer = textLayer
+        super.init(palette: palette, layer: textLayer)
     }
     
-    func setUpGeometry() {
+    override func setUpGeometry() {
         CATransaction.begin()
         CATransaction.setAnimationDuration(CFTimeInterval(0.0))
         

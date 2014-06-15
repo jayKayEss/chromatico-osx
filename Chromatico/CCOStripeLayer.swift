@@ -11,18 +11,14 @@ import QuartzCore
 
 class CCOStripeLayer: CCOLayer {
     
-    var shapeLayer: CAShapeLayer!
+    var shapeLayer: CAShapeLayer
     
     init(palette: CCOPalette!) {
-        super.init(palette: palette)
-    }
-    
-    func createLayer() {
         shapeLayer = CAShapeLayer()
-        layer = shapeLayer
+        super.init(palette: palette, layer: shapeLayer)
     }
     
-    func setUpGeometry() {
+    override func setUpGeometry() {
         CATransaction.begin()
         CATransaction.setAnimationDuration(CFTimeInterval(0.0))
         
