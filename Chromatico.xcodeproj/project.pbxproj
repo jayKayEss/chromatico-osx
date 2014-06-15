@@ -72,8 +72,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00527C0D18FC5526008FF750 /* CCOLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOLayer.h; sourceTree = "<group>"; };
-		00527C0E18FC5526008FF750 /* CCOLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOLayer.m; sourceTree = "<group>"; };
 		0057121618FB426600BF3D8C /* ChromaticoTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaticoTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0057121918FB426600BF3D8C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0057121C18FB426600BF3D8C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -195,8 +193,6 @@
 				00A11337194CFD8D0006ABEB /* CCOAppDelegate.swift */,
 				00ADA3A2194D084E0018A90A /* CCOPalette.swift */,
 				00A1132A194CF14F0006ABEB /* CCOConstants.swift */,
-				00527C0D18FC5526008FF750 /* CCOLayer.h */,
-				00527C0E18FC5526008FF750 /* CCOLayer.m */,
 				008273A1194D1F2100B28B85 /* CCOLayer.swift */,
 				00B5622D194D0E5A00EBE8A0 /* CCOStripeLayer.swift */,
 				00B56231194D144000EBE8A0 /* CCOBlockLayer.swift */,

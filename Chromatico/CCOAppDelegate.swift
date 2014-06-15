@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import AppKit
 
 class CCOAppDelegate: NSObject, NSApplicationDelegate {
     
