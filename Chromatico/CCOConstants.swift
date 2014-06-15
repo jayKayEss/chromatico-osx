@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Cocoa
 
 @objc class CCOConstants {
     
@@ -103,8 +104,12 @@ import Foundation
     }
     
     class func getRandomFont() -> String {
-        let n = CCORandom.rand(allFonts.count)
-        return allFonts[n]
+        let mgr = NSFontManager.sharedFontManager()
+//        let mask = ~NSFontTraitMask.NonStandardCharacterSetFontMask
+//        let fonts = mgr.availableFontNamesWithTraits(mask)
+        let fonts = mgr.availableFonts
+        let n = CCORandom.rand(fonts.count)
+        return (fonts![n]) as String
     }
     
     // backwards-compat
