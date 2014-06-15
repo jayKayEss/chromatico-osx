@@ -48,5 +48,17 @@ class CCOTextLayer: CCOLayer {
         
         CATransaction.commit()
     }
-    
+
+    override func changeColor() {
+        let color = palette.grabColor()
+        let duration = CCOConstants.colorAnimationDuration
+        
+        CATransaction.begin()
+        CATransaction.setAnimationDuration(CFTimeInterval(duration))
+        
+        textLayer.foregroundColor = color
+        
+        CATransaction.commit()
+    }
+
 }
