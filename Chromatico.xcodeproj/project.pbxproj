@@ -11,10 +11,6 @@
 		00527C1C18FC5526008FF750 /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0E18FC5526008FF750 /* CCOLayer.m */; };
 		00527C1D18FC5526008FF750 /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0E18FC5526008FF750 /* CCOLayer.m */; };
 		00527C1E18FC5526008FF750 /* CCOLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C0E18FC5526008FF750 /* CCOLayer.m */; };
-		00527C2318FC5526008FF750 /* CCOTextLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 00527C1118FC5526008FF750 /* CCOTextLayer.h */; };
-		00527C2418FC5526008FF750 /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C1218FC5526008FF750 /* CCOTextLayer.m */; };
-		00527C2518FC5526008FF750 /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C1218FC5526008FF750 /* CCOTextLayer.m */; };
-		00527C2618FC5526008FF750 /* CCOTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00527C1218FC5526008FF750 /* CCOTextLayer.m */; };
 		0057121A18FB426600BF3D8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057121918FB426600BF3D8C /* Cocoa.framework */; };
 		0057122418FB426600BF3D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0057122218FB426600BF3D8C /* InfoPlist.strings */; };
 		0057122618FB426600BF3D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057122518FB426600BF3D8C /* main.m */; };
@@ -36,6 +32,9 @@
 		005712D118FB44A000BF3D8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005712CE18FB44A000BF3D8C /* MainMenu.xib */; };
 		005712D318FB455800BF3D8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005712D218FB455800BF3D8C /* QuartzCore.framework */; };
 		005712D418FB457F00BF3D8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005712D218FB455800BF3D8C /* QuartzCore.framework */; };
+		0092ED8A194D1B5900AFEDE3 /* CCOTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0092ED89194D1B5900AFEDE3 /* CCOTextLayer.swift */; };
+		0092ED8B194D1B5900AFEDE3 /* CCOTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0092ED89194D1B5900AFEDE3 /* CCOTextLayer.swift */; };
+		0092ED8C194D1B5900AFEDE3 /* CCOTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0092ED89194D1B5900AFEDE3 /* CCOTextLayer.swift */; };
 		00A1132B194CF14F0006ABEB /* CCOConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1132A194CF14F0006ABEB /* CCOConstants.swift */; };
 		00A1132C194CF14F0006ABEB /* CCOConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1132A194CF14F0006ABEB /* CCOConstants.swift */; };
 		00A1132D194CF14F0006ABEB /* CCOConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1132A194CF14F0006ABEB /* CCOConstants.swift */; };
@@ -76,8 +75,6 @@
 /* Begin PBXFileReference section */
 		00527C0D18FC5526008FF750 /* CCOLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOLayer.h; sourceTree = "<group>"; };
 		00527C0E18FC5526008FF750 /* CCOLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOLayer.m; sourceTree = "<group>"; };
-		00527C1118FC5526008FF750 /* CCOTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOTextLayer.h; sourceTree = "<group>"; };
-		00527C1218FC5526008FF750 /* CCOTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOTextLayer.m; sourceTree = "<group>"; };
 		0057121618FB426600BF3D8C /* ChromaticoTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaticoTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0057121918FB426600BF3D8C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0057121C18FB426600BF3D8C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -103,6 +100,7 @@
 		005712B118FB435200BF3D8C /* CATextLayer+AutoSizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+AutoSizing.m"; sourceTree = "<group>"; };
 		005712CE18FB44A000BF3D8C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		005712D218FB455800BF3D8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0092ED89194D1B5900AFEDE3 /* CCOTextLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCOTextLayer.swift; sourceTree = "<group>"; };
 		00A1132A194CF14F0006ABEB /* CCOConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCOConstants.swift; sourceTree = "<group>"; };
 		00A1132E194CF5050006ABEB /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		00A1132F194CF6C20006ABEB /* CCORandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCORandom.swift; sourceTree = "<group>"; };
@@ -201,8 +199,7 @@
 				00527C0E18FC5526008FF750 /* CCOLayer.m */,
 				00B5622D194D0E5A00EBE8A0 /* CCOStripeLayer.swift */,
 				00B56231194D144000EBE8A0 /* CCOBlockLayer.swift */,
-				00527C1118FC5526008FF750 /* CCOTextLayer.h */,
-				00527C1218FC5526008FF750 /* CCOTextLayer.m */,
+				0092ED89194D1B5900AFEDE3 /* CCOTextLayer.swift */,
 				005712B018FB435200BF3D8C /* CATextLayer+AutoSizing.h */,
 				005712B118FB435200BF3D8C /* CATextLayer+AutoSizing.m */,
 				00A11333194CFAAF0006ABEB /* NSColor+Random.swift */,
@@ -274,7 +271,6 @@
 			files = (
 				005712B218FB435200BF3D8C /* CATextLayer+AutoSizing.h in Headers */,
 				00527C1B18FC5526008FF750 /* CCOLayer.h in Headers */,
-				00527C2318FC5526008FF750 /* CCOTextLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E60972194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
-				00527C2418FC5526008FF750 /* CCOTextLayer.m in Sources */,
+				0092ED8A194D1B5900AFEDE3 /* CCOTextLayer.swift in Sources */,
 				00A11330194CF6C20006ABEB /* CCORandom.swift in Sources */,
 				00A11338194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */,
 				00527C1C18FC5526008FF750 /* CCOLayer.m in Sources */,
@@ -437,11 +433,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A11331194CF6C20006ABEB /* CCORandom.swift in Sources */,
+				0092ED8B194D1B5900AFEDE3 /* CCOTextLayer.swift in Sources */,
 				00A1132C194CF14F0006ABEB /* CCOConstants.swift in Sources */,
 				00A11335194CFAAF0006ABEB /* NSColor+Random.swift in Sources */,
 				00A11339194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */,
 				00E60973194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
-				00527C2518FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				0057124418FB426600BF3D8C /* ChromaticoTests.m in Sources */,
 				00B5622F194D122900EBE8A0 /* CCOStripeLayer.swift in Sources */,
 				00ADA3A4194D084E0018A90A /* CCOPalette.swift in Sources */,
@@ -456,13 +452,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E60974194CD78600D1E6AE /* ChromaticoSaverView.swift in Sources */,
-				00527C2618FC5526008FF750 /* CCOTextLayer.m in Sources */,
 				00A1132D194CF14F0006ABEB /* CCOConstants.swift in Sources */,
 				00A1133A194CFD8D0006ABEB /* CCOAppDelegate.swift in Sources */,
 				00A11332194CF6C20006ABEB /* CCORandom.swift in Sources */,
 				00527C1E18FC5526008FF750 /* CCOLayer.m in Sources */,
 				00B56234194D144000EBE8A0 /* CCOBlockLayer.swift in Sources */,
 				00B5622E194D0E5A00EBE8A0 /* CCOStripeLayer.swift in Sources */,
+				0092ED8C194D1B5900AFEDE3 /* CCOTextLayer.swift in Sources */,
 				005712B518FB435200BF3D8C /* CATextLayer+AutoSizing.m in Sources */,
 				00A11336194CFAAF0006ABEB /* NSColor+Random.swift in Sources */,
 				00ADA3A5194D084E0018A90A /* CCOPalette.swift in Sources */,

@@ -3,5 +3,5 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import "CATextLayer+Autosizing.h"
 #import "CCOLayer.h"
-#import "CCOTextLayer.h"
