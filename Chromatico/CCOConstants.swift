@@ -12,6 +12,8 @@ import Foundation
     
     class var minColors: Int { return 2 }
     class var maxColors: Int { return 4 }
+    
+    class var colorAnimationInterval: Float { return 60.0 }
     class var colorAnimationDuration: Float { return 5.0 }
     
     class var allStrings: String[] {

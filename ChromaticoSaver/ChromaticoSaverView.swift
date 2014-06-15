@@ -67,11 +67,12 @@ class ChromaticoSaverView : ScreenSaverView {
             paletteTimer?.invalidate()
         }
 
-        paletteTimer = NSTimer(timeInterval: NSTimeInterval(60),
+        paletteTimer = NSTimer.scheduledTimerWithTimeInterval(
+            NSTimeInterval(CCOConstants.colorAnimationInterval),
             target: self,
             selector: "changePalette",
             userInfo: nil,
-            repeats: false)
+            repeats: true)
     }
     
     override func stopAnimation() {
@@ -99,7 +100,7 @@ class ChromaticoSaverView : ScreenSaverView {
         
         CATransaction.begin()
         CATransaction.setAnimationDuration(duration)
-        CATransaction.setAnimationTimingFunction(CAMediaTimingFunction(name: "kCAMediaTimingFunctionLinear"))
+        CATransaction.setAnimationTimingFunction(CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear))
         layer.backgroundColor = color
         CATransaction.commit()
         
