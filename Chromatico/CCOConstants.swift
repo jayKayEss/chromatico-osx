@@ -15,7 +15,8 @@ import Cocoa
     class var maxColors: Int { return 4 }
     
     class var colorAnimationInterval: Float { return 60.0 }
-    class var colorAnimationDuration: Float { return 5.0 }
+    class var colorAnimationDuration: Float { return 1.0 }
+    class var colorAnimationOffset: Float { return 0.5 }
     
     class var allStrings: String[] {
         return [

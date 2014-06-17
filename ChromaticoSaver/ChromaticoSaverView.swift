@@ -93,20 +93,33 @@ class ChromaticoSaverView : ScreenSaverView {
     }
     
     func changePalette() {
-        palette.changeToNewColors();
-        let duration = CFTimeInterval(CCOConstants.colorAnimationDuration)
+        let duration = CFTimeInterval(CCOConstants.colorAnimationOffset)
+        var currentDuration = duration
         
+        palette.changeToNewColors()
+        changeBackgroundColor()
+        
+        for (thisLayer) in layers {
+            NSTimer.scheduledTimerWithTimeInterval(
+                NSTimeInterval(currentDuration),
+                target: thisLayer,
+                selector: "changeColor",
+                userInfo: nil,
+                repeats: false)
+            
+            currentDuration += duration
+        }
+    }
+    
+    func changeBackgroundColor() {
         let color = palette.grabColor()
+        let duration = CFTimeInterval(CCOConstants.colorAnimationDuration)
         
         CATransaction.begin()
         CATransaction.setAnimationDuration(duration)
         CATransaction.setAnimationTimingFunction(CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear))
         layer.backgroundColor = color
         CATransaction.commit()
-        
-        for (thisLayer) in layers {
-            thisLayer.changeColor()
-        }
     }
     
     override func hasConfigureSheet() -> Bool {

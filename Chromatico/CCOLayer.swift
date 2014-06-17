@@ -9,7 +9,7 @@
 import Foundation
 import QuartzCore
 
-class CCOLayer {
+class CCOLayer: NSObject {
     
     let palette: CCOPalette
     let layer: CALayer
