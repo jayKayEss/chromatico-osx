@@ -43,7 +43,7 @@ class ChromaticoSaverView : ScreenSaverView {
             addCCOLayer(newLayer)
         }
     
-        for (var i=0; i<5; i++) {
+        for (var i=0; i<3; i++) {
             let newLayer = CCOTextLayer(palette: palette)
             addCCOLayer(newLayer)
         }
@@ -97,7 +97,6 @@ class ChromaticoSaverView : ScreenSaverView {
         var currentDuration = duration
         
         palette.changeToNewColors()
-        changeBackgroundColor()
         
         for (thisLayer) in layers {
             NSTimer.scheduledTimerWithTimeInterval(
@@ -109,6 +108,13 @@ class ChromaticoSaverView : ScreenSaverView {
             
             currentDuration += duration
         }
+
+        NSTimer.scheduledTimerWithTimeInterval(
+            NSTimeInterval(currentDuration),
+            target: self,
+            selector: "changeBackgroundColor",
+            userInfo: nil,
+            repeats: false)
     }
     
     func changeBackgroundColor() {
