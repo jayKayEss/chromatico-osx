@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Justin Sheckler. All rights reserved.
 //
 
+import CoreFoundation
 import Foundation
 import QuartzCore
 
@@ -43,7 +44,7 @@ class CCOLayer: NSObject {
     func animate() {
         setUpGeometry()
         
-        let duration = CGFloat(CCORandom.rand(110) + 10)
+        let duration = CFTimeInterval(CCORandom.rand(110) + 10)
 
         var moveLeft = CABasicAnimation(keyPath: "position")
         moveLeft.fromValue = NSValue(point: CGPointMake(xPos, yPos))

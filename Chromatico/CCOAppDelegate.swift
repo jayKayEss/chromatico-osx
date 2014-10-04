@@ -11,12 +11,12 @@ import AppKit
 
 class CCOAppDelegate: NSObject, NSApplicationDelegate {
     
-    @IBOutlet var window: NSWindow
+    @IBOutlet var window: NSWindow?
     var chromaticoView: ChromaticoSaverView?
     
     func applicationDidFinishLaunching(aNotification: NSNotification!) {
-        let contentView = window.contentView
-        chromaticoView = ChromaticoSaverView(frame: contentView.frame, isPreview: true)
+        let contentView: AnyObject? = window!.contentView
+        chromaticoView = ChromaticoSaverView(frame: contentView!.frame, isPreview: true)
         contentView!.addSubview(chromaticoView!)
         
         chromaticoView!.startAnimation()

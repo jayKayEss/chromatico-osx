@@ -18,7 +18,7 @@ import Cocoa
     class var colorAnimationDuration: Float { return 0.5 }
     class var colorAnimationOffset: Float { return 0.25 }
     
-    class var allStrings: String[] {
+    class var allStrings: [String] {
         return [
             "||||||||||++++++++++||||||||||++++++++++\n++++++++++||||||||||++++++++++||||||||||\n||||||||||++++++++++||||||||||++++++++++\n++++++++++||||||||||++++++++++||||||||||",
             
@@ -88,7 +88,7 @@ import Cocoa
         ];
     }
 
-    class var allFonts: String[] {
+    class var allFonts: [String] {
         return [
             "HelveticaNeue",
             "HelveticaNeue-Bold",
@@ -110,7 +110,7 @@ import Cocoa
 //        let fonts = mgr.availableFontNamesWithTraits(mask)
         let fonts = mgr.availableFonts
         let n = CCORandom.rand(fonts.count)
-        return (fonts![n]) as String
+        return (fonts[n]) as String
     }
     
     // backwards-compat

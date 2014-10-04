@@ -12,7 +12,7 @@ import Cocoa
 @objc class CCOPalette {
     
     var cursor: Int
-    var colors: NSColor[]
+    var colors: [NSColor]
     
     init() {
         cursor = 0;
@@ -33,7 +33,7 @@ import Cocoa
         let maxColors = CCOConstants.maxColors
         let numColors = CCORandom.rand(maxColors - minColors + 1) + minColors
         
-        var newColors: NSColor[] = [];
+        var newColors: [NSColor] = [];
         
         for (var i=0; i<numColors; i++) {
             let newColor = NSColor.randomColor()

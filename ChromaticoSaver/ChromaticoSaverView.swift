@@ -13,11 +13,11 @@ import QuartzCore
 class ChromaticoSaverView : ScreenSaverView {
     
     var hostedLayer: CALayer
-    var layers: CCOLayer[]
+    var layers: [CCOLayer]
     var palette: CCOPalette
     var paletteTimer: NSTimer?
         
-    init(frame: NSRect, isPreview: Bool) {
+    override init(frame: NSRect, isPreview: Bool) {
         hostedLayer = CALayer()
         layers = Array()
         palette = CCOPalette()
@@ -48,11 +48,15 @@ class ChromaticoSaverView : ScreenSaverView {
             addCCOLayer(newLayer)
         }
     }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     
     func addCCOLayer(newLayer: CCOLayer) {
-        newLayer.outerBounds = layer.bounds
-        layer.addSublayer(newLayer.layer)
+        newLayer.outerBounds = layer!.bounds
+        layer!.addSublayer(newLayer.layer)
         layers.append(newLayer)
     }
     
@@ -63,7 +67,7 @@ class ChromaticoSaverView : ScreenSaverView {
             thisLayer.startAnimation()
         }
         
-        if (paletteTimer?.valid) {
+        if ((paletteTimer?.valid) != nil) {
             paletteTimer?.invalidate()
         }
 
@@ -124,7 +128,7 @@ class ChromaticoSaverView : ScreenSaverView {
         CATransaction.begin()
         CATransaction.setAnimationDuration(duration)
         CATransaction.setAnimationTimingFunction(CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear))
-        layer.backgroundColor = color
+        layer!.backgroundColor = color
         CATransaction.commit()
     }
     
